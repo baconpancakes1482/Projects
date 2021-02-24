@@ -1,0 +1,6668 @@
+name: _autogeo_.asav
+version: 1.0
+build: " git 2020-05-22 20:40"
+time:
+  second: 15
+  minute: 40
+  hour: 13
+  weekday: 2
+  day: 22
+  month: 3
+  year: 1999
+mods:
+  - "xcom1 ver: 1.0"
+  - "Aliens_Pick_Up_Weapons ver: 1.0"
+  - "UFOextender_Gun_Melee ver: 1.0"
+  - "XcomUtil_Fighter_Transports ver: 1.0"
+  - "XcomUtil_High_Explosive_Damage ver: 1.0"
+  - "XcomUtil_Improved_Ground_Tanks ver: 1.0"
+  - "XcomUtil_Improved_Heavy_Laser ver: 1.0"
+  - "XcomUtil_No_Psionics ver: 1.0"
+  - "hardmode-expansion ver: 0.99.7"
+  - "XcomUtil_Statstrings ver: 1.0"
+---
+difficulty: 4
+end: 0
+monthsPassed: 2
+graphRegionToggles: 0000101000000001
+graphCountryToggles: 00000000000000001
+graphFinanceToggles: 00000
+rng: 12758414557141822106
+funds:
+  - 1801135
+  - 1752230
+  - 885800
+maintenance:
+  - 4240000
+  - 4672500
+  - 0
+researchScores:
+  - 20
+  - 455
+  - 25
+incomes:
+  - 8346185
+  - 9881995
+  - 10024210
+expenditures:
+  - 8312050
+  - 8892400
+  - 10162140
+warned: false
+globeLon: 4.7764259531244146
+globeLat: -0.24891756193486744
+globeZoom: 1
+ids:
+  ALIEN_MISSIONS: 9
+  STR_ALIEN_BASE: 2
+  STR_CRASH_SITE: 3
+  STR_INTERCEPTOR: 6
+  STR_LANDING_SITE: 21
+  STR_SKYRANGER: 2
+  STR_SOLDIER: 55
+  STR_TERROR_SITE: 4
+  STR_UFO: 24
+  STR_WAY_POINT: 32
+countries:
+  - type: STR_USA
+    funding:
+      - 1001000
+      - 911000
+      - 911000
+    activityXcom:
+      - 0
+      - 0
+      - 0
+    activityAlien:
+      - 0
+      - 0
+      - 59
+  - type: STR_RUSSIA
+    funding:
+      - 397000
+      - 338000
+      - 338000
+    activityXcom:
+      - 0
+      - 0
+      - 0
+    activityAlien:
+      - 17
+      - 4
+      - 6
+  - type: STR_UK
+    funding:
+      - 248000
+      - 236000
+      - 269000
+    activityXcom:
+      - 100
+      - 150
+      - 0
+    activityAlien:
+      - 160
+      - 21
+      - 4
+  - type: STR_FRANCE
+    funding:
+      - 559000
+      - 515000
+      - 515000
+    activityXcom:
+      - 0
+      - 0
+      - 0
+    activityAlien:
+      - 7
+      - 3
+      - 2
+  - type: STR_GERMANY
+    funding:
+      - 369000
+      - 310000
+      - 310000
+    activityXcom:
+      - 0
+      - 0
+      - 0
+    activityAlien:
+      - 34
+      - 2
+      - 89
+  - type: STR_ITALY
+    funding:
+      - 214000
+      - 204000
+      - 204000
+    activityXcom:
+      - 0
+      - 0
+      - 0
+    activityAlien:
+      - 3
+      - 1
+      - 1
+  - type: STR_SPAIN
+    funding:
+      - 129000
+      - 115000
+      - 115000
+    activityXcom:
+      - 0
+      - 184
+      - 0
+    activityAlien:
+      - 44
+      - 14
+      - 2
+  - type: STR_CHINA
+    funding:
+      - 380000
+      - 342000
+      - 342000
+    activityXcom:
+      - 0
+      - 0
+      - 0
+    activityAlien:
+      - 9
+      - 1
+      - 0
+  - type: STR_JAPAN
+    funding:
+      - 576000
+      - 530000
+      - 530000
+    activityXcom:
+      - 0
+      - 0
+      - 0
+    activityAlien:
+      - 0
+      - 0
+      - 0
+  - type: STR_INDIA
+    funding:
+      - 113000
+      - 92000
+      - 92000
+    activityXcom:
+      - 0
+      - 0
+      - 0
+    activityAlien:
+      - 56
+      - 2
+      - 1
+  - type: STR_BRAZIL
+    funding:
+      - 554000
+      - 477000
+      - 477000
+    activityXcom:
+      - 0
+      - 0
+      - 0
+    activityAlien:
+      - 5
+      - 0
+      - 0
+  - type: STR_AUSTRALIA
+    funding:
+      - 477000
+      - 449000
+      - 449000
+    activityXcom:
+      - 0
+      - 0
+      - 0
+    activityAlien:
+      - 2
+      - 3
+      - 4
+  - type: STR_NIGERIA
+    funding:
+      - 256000
+      - 231000
+      - 231000
+    activityXcom:
+      - 0
+      - 0
+      - 0
+    activityAlien:
+      - 0
+      - 0
+      - 0
+  - type: STR_SOUTH_AFRICA
+    funding:
+      - 230000
+      - 219000
+      - 219000
+    activityXcom:
+      - 0
+      - 0
+      - 0
+    activityAlien:
+      - 0
+      - 0
+      - 92
+  - type: STR_EGYPT
+    funding:
+      - 213000
+      - 199000
+      - 199000
+    activityXcom:
+      - 0
+      - 0
+      - 0
+    activityAlien:
+      - 1
+      - 0
+      - 0
+  - type: STR_CANADA
+    funding:
+      - 291000
+      - 233000
+      - 233000
+    activityXcom:
+      - 0
+      - 0
+      - 0
+    activityAlien:
+      - 1
+      - 0
+      - 8
+regions:
+  - type: STR_NORTH_AMERICA
+    activityXcom:
+      - 0
+      - 0
+      - 103
+    activityAlien:
+      - 1
+      - 0
+      - 116
+  - type: STR_ARCTIC
+    activityXcom:
+      - 0
+      - 0
+      - 0
+    activityAlien:
+      - 4
+      - 2
+      - 5
+  - type: STR_ANTARCTICA
+    activityXcom:
+      - 0
+      - 0
+      - 0
+    activityAlien:
+      - 5
+      - 0
+      - 5
+  - type: STR_SOUTH_AMERICA
+    activityXcom:
+      - 0
+      - 0
+      - 0
+    activityAlien:
+      - 5
+      - 0
+      - 4
+  - type: STR_EUROPE
+    activityXcom:
+      - 695
+      - -328
+      - 731
+    activityAlien:
+      - 542
+      - 384
+      - 550
+  - type: STR_NORTH_AFRICA
+    activityXcom:
+      - 0
+      - 0
+      - -792
+    activityAlien:
+      - 11
+      - 4
+      - 40
+  - type: STR_SOUTHERN_AFRICA
+    activityXcom:
+      - 0
+      - 0
+      - 0
+    activityAlien:
+      - 3
+      - 2
+      - 224
+  - type: STR_CENTRAL_ASIA
+    activityXcom:
+      - -800
+      - 0
+      - 0
+    activityAlien:
+      - 240
+      - 6
+      - 3
+  - type: STR_SOUTH_EAST_ASIA
+    activityXcom:
+      - 0
+      - 0
+      - 0
+    activityAlien:
+      - 5
+      - 3
+      - 1
+  - type: STR_SIBERIA
+    activityXcom:
+      - 0
+      - 0
+      - 0
+    activityAlien:
+      - 3
+      - 1
+      - 2
+  - type: STR_AUSTRALASIA
+    activityXcom:
+      - 0
+      - 0
+      - 0
+    activityAlien:
+      - 2
+      - 6
+      - 7
+  - type: STR_PACIFIC
+    activityXcom:
+      - 0
+      - 0
+      - 0
+    activityAlien:
+      - 6
+      - 0
+      - 14
+  - type: STR_NORTH_ATLANTIC
+    activityXcom:
+      - 0
+      - 0
+      - 0
+    activityAlien:
+      - 2
+      - 122
+      - 1
+  - type: STR_SOUTH_ATLANTIC
+    activityXcom:
+      - 0
+      - 0
+      - 0
+    activityAlien:
+      - 6
+      - 1
+      - 4
+  - type: STR_INDIAN_OCEAN
+    activityXcom:
+      - 0
+      - 0
+      - 0
+    activityAlien:
+      - 2
+      - 0
+      - 3
+bases:
+  - lon: 0.21706904715982284
+    lat: -0.85676157749214044
+    name: EAGLE NEST
+    facilities:
+      - type: STR_ACCESS_LIFT
+        x: 5
+        y: 3
+      - type: STR_HANGAR
+        x: 4
+        y: 4
+      - type: STR_HANGAR
+        x: 2
+        y: 4
+      - type: STR_HANGAR
+        x: 0
+        y: 4
+      - type: STR_GENERAL_STORES
+        x: 5
+        y: 2
+      - type: STR_GENERAL_STORES
+        x: 5
+        y: 1
+      - type: STR_LIVING_QUARTERS
+        x: 4
+        y: 2
+      - type: STR_SMALL_RADAR_SYSTEM
+        x: 3
+        y: 2
+      - type: STR_WORKSHOP
+        x: 2
+        y: 2
+      - type: STR_LABORATORY
+        x: 1
+        y: 2
+      - type: STR_LIVING_QUARTERS
+        x: 4
+        y: 1
+      - type: STR_GENERAL_STORES
+        x: 5
+        y: 0
+      - type: STR_LARGE_RADAR_SYSTEM
+        x: 0
+        y: 2
+      - type: STR_LABORATORY
+        x: 1
+        y: 1
+      - type: STR_WORKSHOP
+        x: 2
+        y: 1
+      - type: STR_LIVING_QUARTERS
+        x: 3
+        y: 1
+      - type: STR_GENERAL_STORES
+        x: 4
+        y: 0
+    soldiers:
+      - type: STR_SOLDIER
+        id: 24
+        name: Athanasius Assault
+        initialStats:
+          tu: 60
+          stamina: 49
+          health: 25
+          bravery: 10
+          reactions: 56
+          firing: 66
+          throwing: 71
+          strength: 22
+          psiStrength: 73
+          psiSkill: 0
+          melee: 40
+        currentStats:
+          tu: 64
+          stamina: 56
+          health: 25
+          bravery: 10
+          reactions: 56
+          firing: 67
+          throwing: 71
+          strength: 30
+          psiStrength: 73
+          psiSkill: 0
+          melee: 40
+        rank: 1
+        gender: 0
+        look: 1
+        missions: 3
+        kills: 4
+        armor: STR_ARMORED_VEST_UC
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - itemType: STR_SHOTGUN
+            slot: STR_RIGHT_HAND
+            ammoItem: STR_SHOTGUN_CLIP
+          - itemType: STR_SHOTGUN_CLIP
+            slot: STR_BACK_PACK
+            slotX: 1
+            slotY: 2
+        diary:
+          commendations:
+            - commendationName: STR_MEDAL_ONE_MONTH_SERVICE
+              decorationLevel: 0
+          killList:
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_SHOTGUN
+              weaponAmmo: STR_SHOTGUN_CLIP
+              status: 6
+              faction: 1
+              mission: 4
+              turn: 1206
+              side: 0
+              bodypart: 1
+              id: 1000003
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_SHOTGUN
+              weaponAmmo: STR_SHOTGUN_CLIP
+              status: 6
+              faction: 1
+              mission: 4
+              turn: 1224
+              side: 2
+              bodypart: 2
+              id: 1000007
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_SHOTGUN
+              weaponAmmo: STR_SHOTGUN_CLIP
+              status: 6
+              faction: 1
+              mission: 9
+              turn: 2742
+              side: 3
+              bodypart: 1
+              id: 1000005
+            - type: STR_SECTOID_NAVIGATOR
+              rank: STR_LIVE_NAVIGATOR
+              race: STR_SECTOID
+              weapon: STR_SHOTGUN
+              weaponAmmo: STR_SHOTGUN_CLIP
+              status: 6
+              faction: 1
+              mission: 9
+              turn: 2757
+              side: 2
+              bodypart: 2
+              id: 1000013
+          missionIdList:
+            - 4
+            - 5
+            - 9
+          monthsService: 2
+          shotAtCounterTotal: 1
+          shotsFiredCounterTotal: 5
+          shotsLandedCounterTotal: 6
+          statGainTotal: 20
+      - type: STR_SOLDIER
+        id: 17
+        name: Vaclava Grenadier
+        initialStats:
+          tu: 50
+          stamina: 53
+          health: 40
+          bravery: 50
+          reactions: 34
+          firing: 62
+          throwing: 66
+          strength: 40
+          psiStrength: 62
+          psiSkill: 0
+          melee: 54
+        currentStats:
+          tu: 53
+          stamina: 60
+          health: 41
+          bravery: 50
+          reactions: 34
+          firing: 66
+          throwing: 67
+          strength: 44
+          psiStrength: 62
+          psiSkill: 0
+          melee: 54
+        rank: 2
+        gender: 1
+        look: 0
+        missions: 3
+        kills: 7
+        armor: STR_ARMORED_VEST_UC
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - itemType: STR_GRENADE_LAUNCHER
+            slot: STR_RIGHT_HAND
+            ammoItem: STR_GRENADE_LAUNCHER_HE_AMMO
+          - itemType: STR_GRENADE_LAUNCHER_HE_AMMO
+            slot: STR_BACK_PACK
+            slotY: 2
+          - itemType: STR_GRENADE_LAUNCHER_HE_AMMO
+            slot: STR_BACK_PACK
+            slotX: 1
+            slotY: 2
+          - itemType: STR_GRENADE_LAUNCHER_HE_AMMO
+            slot: STR_BELT
+            slotX: 1
+          - itemType: STR_GRENADE_LAUNCHER_HE_AMMO
+            slot: STR_BELT
+            slotY: 1
+          - itemType: STR_GRENADE_LAUNCHER_IC_AMMO
+            slot: STR_BACK_PACK
+            slotX: 2
+            slotY: 2
+          - itemType: STR_GRENADE_LAUNCHER_IC_AMMO
+            slot: STR_BELT
+            slotX: 3
+          - itemType: STR_GRENADE_LAUNCHER_SMOKE_AMMO
+            slot: STR_BELT
+          - itemType: STR_GRENADE_LAUNCHER_SMOKE_AMMO
+            slot: STR_BELT
+            slotX: 2
+        diary:
+          commendations:
+            - commendationName: STR_MEDAL_ONE_MONTH_SERVICE
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_DOUBLEKILL
+              decorationLevel: 0
+          killList:
+            - type: STR_FLOATER_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_FLOATER
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 6
+              faction: 1
+              mission: 2
+              turn: 675
+              side: 3
+              bodypart: 1
+              id: 1000009
+            - type: STR_FLOATER_NAVIGATOR
+              rank: STR_LIVE_NAVIGATOR
+              race: STR_FLOATER
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 6
+              faction: 1
+              mission: 2
+              turn: 696
+              side: 2
+              bodypart: 2
+              id: 1000016
+            - type: STR_FLOATER_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_FLOATER
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 6
+              faction: 1
+              mission: 2
+              turn: 711
+              side: 4
+              bodypart: 1
+              id: 1000012
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 6
+              faction: 1
+              mission: 3
+              turn: 906
+              side: 3
+              bodypart: 1
+              id: 1000002
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 6
+              faction: 1
+              mission: 3
+              turn: 909
+              side: 0
+              bodypart: 1
+              id: 1000001
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 6
+              faction: 1
+              mission: 3
+              turn: 909
+              side: 0
+              bodypart: 1
+              id: 1000005
+            - type: STR_SECTOID_NAVIGATOR
+              rank: STR_LIVE_NAVIGATOR
+              race: STR_SECTOID
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 6
+              faction: 1
+              mission: 3
+              turn: 909
+              side: 0
+              bodypart: 1
+              id: 1000010
+          missionIdList:
+            - 1
+            - 2
+            - 3
+          monthsService: 2
+          shotAtCounterTotal: 1
+          shotsFiredCounterTotal: 14
+          shotsLandedCounterTotal: 2
+          statGainTotal: 20
+      - type: STR_SOLDIER
+        id: 5
+        name: Andrew Assault
+        initialStats:
+          tu: 52
+          stamina: 40
+          health: 25
+          bravery: 20
+          reactions: 51
+          firing: 59
+          throwing: 73
+          strength: 23
+          psiStrength: 66
+          psiSkill: 0
+          melee: 48
+        currentStats:
+          tu: 61
+          stamina: 58
+          health: 35
+          bravery: 20
+          reactions: 51
+          firing: 61
+          throwing: 75
+          strength: 33
+          psiStrength: 66
+          psiSkill: 0
+          melee: 48
+        rank: 2
+        gender: 0
+        look: 0
+        missions: 5
+        kills: 4
+        armor: STR_ARMORED_VEST_UC
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - itemType: STR_FLASHBANG_GRENADE
+            slot: STR_BELT
+            slotY: 1
+          - itemType: STR_GRENADE
+            slot: STR_BELT
+          - itemType: STR_GRENADE
+            slot: STR_BELT
+            slotX: 1
+          - itemType: STR_RIFLE
+            slot: STR_RIGHT_HAND
+            ammoItem: STR_RIFLE_CLIP
+          - itemType: STR_RIFLE_CLIP
+            slot: STR_BELT
+            slotX: 2
+        diary:
+          commendations:
+            - commendationName: STR_MEDAL_ORIGINAL8_NAME
+              noun: NoNoun
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_ONE_MONTH_SERVICE
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_TOTAL_MISSION_COUNT
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_STATGAIN
+              decorationLevel: 1
+            - commendationName: STR_MEDAL_TOTAL_IMPORTANT_MISSIONS
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_WOUNDED
+              decorationLevel: 0
+          killList:
+            - type: STR_FLOATER_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_FLOATER
+              weapon: STR_RIFLE
+              weaponAmmo: STR_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 2
+              turn: 606
+              side: 2
+              bodypart: 2
+              id: 1000001
+            - type: STR_FLOATER_LEADER
+              rank: STR_LIVE_LEADER
+              race: STR_FLOATER
+              weapon: STR_RIFLE
+              weaponAmmo: STR_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 2
+              turn: 678
+              side: 2
+              bodypart: 2
+              id: 1000021
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_RIFLE
+              weaponAmmo: STR_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 3
+              turn: 909
+              side: 3
+              bodypart: 1
+              id: 1000007
+            - type: STR_SECTOID_ENGINEER
+              rank: STR_LIVE_ENGINEER
+              race: STR_SECTOID
+              weapon: STR_RIFLE
+              weaponAmmo: STR_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 9
+              turn: 2712
+              side: 0
+              bodypart: 1
+              id: 1000016
+          missionIdList:
+            - 0
+            - 1
+            - 2
+            - 3
+            - 9
+          daysWoundedTotal: 15
+          monthsService: 2
+          unconciousTotal: 1
+          shotsFiredCounterTotal: 30
+          shotsLandedCounterTotal: 4
+          timesWoundedTotal: 1
+          statGainTotal: 51
+      - type: STR_SOLDIER
+        id: 8
+        name: Hans Grenadier
+        initialStats:
+          tu: 51
+          stamina: 63
+          health: 33
+          bravery: 40
+          reactions: 45
+          firing: 63
+          throwing: 76
+          strength: 40
+          psiStrength: 7
+          psiSkill: 0
+          melee: 52
+        currentStats:
+          tu: 63
+          stamina: 64
+          health: 43
+          bravery: 40
+          reactions: 45
+          firing: 67
+          throwing: 76
+          strength: 49
+          psiStrength: 7
+          psiSkill: 0
+          melee: 52
+        rank: 2
+        gender: 0
+        look: 0
+        missions: 5
+        kills: 13
+        armor: STR_ARMORED_VEST_UC
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - itemType: STR_GRENADE_LAUNCHER
+            slot: STR_RIGHT_HAND
+            ammoItem: STR_GRENADE_LAUNCHER_HE_AMMO
+          - itemType: STR_SHOTGUN
+            slot: STR_LEFT_HAND
+            ammoItem: STR_SHOTGUN_CLIP
+          - itemType: STR_GRENADE_LAUNCHER_HE_AMMO
+            slot: STR_BELT
+            slotX: 1
+          - itemType: STR_GRENADE_LAUNCHER_HE_AMMO
+            slot: STR_BELT
+          - itemType: STR_GRENADE_LAUNCHER_HE_AMMO
+            slot: STR_BACK_PACK
+            slotX: 2
+            slotY: 2
+          - itemType: STR_GRENADE_LAUNCHER_HE_AMMO
+            slot: STR_BELT
+            slotX: 2
+          - itemType: STR_GRENADE_LAUNCHER_SMOKE_AMMO
+            slot: STR_BELT
+            slotX: 3
+            slotY: 1
+          - itemType: STR_GRENADE_LAUNCHER_SMOKE_AMMO
+            slot: STR_BELT
+            slotX: 3
+          - itemType: STR_GRENADE_LAUNCHER_SMOKE_AMMO
+            slot: STR_BELT
+            slotY: 1
+        diary:
+          commendations:
+            - commendationName: STR_MEDAL_ORIGINAL8_NAME
+              noun: NoNoun
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_SNIPER
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_DOUBLEKILL
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_ONE_MONTH_SERVICE
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_ALIENS_KILLED
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_TOTAL_MISSION_COUNT
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_WEAPON_PROFICIENCY
+              noun: STR_GRENADE_LAUNCHER
+              decorationLevel: 1
+            - commendationName: STR_MEDAL_WOUNDED
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_TOTAL_IMPORTANT_MISSIONS
+              decorationLevel: 0
+          killList:
+            - type: STR_FLOATER_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_FLOATER
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 6
+              faction: 1
+              mission: 0
+              turn: 15
+              side: 2
+              bodypart: 2
+              id: 1000004
+            - type: STR_FLOATER_NAVIGATOR
+              rank: STR_LIVE_NAVIGATOR
+              race: STR_FLOATER
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 6
+              faction: 1
+              mission: 0
+              turn: 18
+              side: 4
+              bodypart: 1
+              id: 1000011
+            - type: STR_FLOATER_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_FLOATER
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 6
+              faction: 1
+              mission: 0
+              turn: 21
+              side: 4
+              bodypart: 1
+              id: 1000007
+            - type: STR_FLOATER_NAVIGATOR
+              rank: STR_LIVE_NAVIGATOR
+              race: STR_FLOATER
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 6
+              faction: 1
+              mission: 0
+              turn: 27
+              side: 4
+              bodypart: 1
+              id: 1000010
+            - type: STR_FLOATER_NAVIGATOR
+              rank: STR_LIVE_NAVIGATOR
+              race: STR_FLOATER
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 6
+              faction: 1
+              mission: 0
+              turn: 36
+              side: 4
+              bodypart: 1
+              id: 1000009
+            - type: STR_FLOATER_ENGINEER
+              rank: STR_LIVE_ENGINEER
+              race: STR_FLOATER
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 6
+              faction: 1
+              mission: 2
+              turn: 618
+              side: 4
+              bodypart: 1
+              id: 1000019
+            - type: STR_FLOATER_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_FLOATER
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 7
+              faction: 1
+              mission: 2
+              turn: 660
+              side: 2
+              bodypart: 2
+              id: 1000002
+            - type: STR_FLOATER_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_FLOATER
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 6
+              faction: 1
+              mission: 2
+              turn: 669
+              side: 0
+              bodypart: 1
+              id: 1000013
+            - type: STR_FLOATER_MEDIC
+              rank: STR_LIVE_MEDIC
+              race: STR_FLOATER
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 6
+              faction: 1
+              mission: 2
+              turn: 669
+              side: 4
+              bodypart: 1
+              id: 1000017
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 6
+              faction: 1
+              mission: 3
+              turn: 906
+              side: 3
+              bodypart: 1
+              id: 1000009
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 6
+              faction: 1
+              mission: 3
+              turn: 909
+              side: 4
+              bodypart: 1
+              id: 1000004
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 6
+              faction: 1
+              mission: 9
+              turn: 2715
+              side: 0
+              bodypart: 1
+              id: 1000010
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 6
+              faction: 1
+              mission: 9
+              turn: 2718
+              side: 3
+              bodypart: 1
+              id: 1000009
+            - name: Andrew Assault
+              rank: STR_SERGEANT
+              race: STR_FRIENDLY
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 7
+              faction: 0
+              mission: 9
+              turn: 2727
+              side: 4
+              bodypart: 1
+              id: 5
+            - type: STR_SECTOID_MEDIC
+              rank: STR_LIVE_MEDIC
+              race: STR_SECTOID
+              weapon: STR_SHOTGUN
+              weaponAmmo: STR_SHOTGUN_CLIP
+              status: 6
+              faction: 1
+              mission: 9
+              turn: 2754
+              side: 0
+              bodypart: 1
+              id: 1000015
+          missionIdList:
+            - 0
+            - 1
+            - 2
+            - 3
+            - 9
+          daysWoundedTotal: 3
+          monthsService: 2
+          shotAtCounterTotal: 4
+          hitCounterTotal: 1
+          longDistanceHitCounterTotal: 3
+          shotsFiredCounterTotal: 23
+          shotsLandedCounterTotal: 7
+          timesWoundedTotal: 1
+          statGainTotal: 36
+      - type: STR_SOLDIER
+        id: 15
+        name: Lauren Rifleman
+        initialStats:
+          tu: 51
+          stamina: 69
+          health: 40
+          bravery: 60
+          reactions: 39
+          firing: 57
+          throwing: 53
+          strength: 24
+          psiStrength: 10
+          psiSkill: 0
+          melee: 42
+        currentStats:
+          tu: 55
+          stamina: 70
+          health: 45
+          bravery: 60
+          reactions: 39
+          firing: 58
+          throwing: 53
+          strength: 34
+          psiStrength: 10
+          psiSkill: 0
+          melee: 42
+        rank: 1
+        gender: 1
+        look: 2
+        missions: 3
+        kills: 2
+        armor: STR_ARMORED_VEST_UC
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - itemType: STR_GRENADE
+            slot: STR_BELT
+            slotX: 2
+          - itemType: STR_RIFLE
+            slot: STR_RIGHT_HAND
+            ammoItem: STR_RIFLE_CLIP
+          - itemType: STR_RIFLE_CLIP
+            slot: STR_BELT
+          - itemType: STR_RIFLE_CLIP
+            slot: STR_BELT
+            slotX: 1
+          - itemType: STR_RIFLE_CLIP
+            slot: STR_BELT
+            slotY: 1
+        diary:
+          commendations:
+            - commendationName: STR_MEDAL_ONE_MONTH_SERVICE
+              decorationLevel: 0
+          killList:
+            - type: STR_FLOATER_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_FLOATER
+              weapon: STR_RIFLE
+              weaponAmmo: STR_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 2
+              turn: 639
+              side: 1
+              bodypart: 3
+              id: 1000010
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_RIFLE
+              weaponAmmo: STR_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 3
+              turn: 906
+              side: 3
+              bodypart: 1
+              id: 1000006
+          missionIdList:
+            - 1
+            - 2
+            - 3
+          monthsService: 2
+          shotAtCounterTotal: 1
+          shotsFiredCounterTotal: 8
+          shotsLandedCounterTotal: 2
+          statGainTotal: 21
+      - type: STR_SOLDIER
+        id: 16
+        name: Samuel Medic
+        initialStats:
+          tu: 56
+          stamina: 42
+          health: 29
+          bravery: 10
+          reactions: 30
+          firing: 67
+          throwing: 61
+          strength: 26
+          psiStrength: 25
+          psiSkill: 0
+          melee: 51
+        currentStats:
+          tu: 56
+          stamina: 48
+          health: 35
+          bravery: 10
+          reactions: 30
+          firing: 67
+          throwing: 61
+          strength: 29
+          psiStrength: 25
+          psiSkill: 0
+          melee: 51
+        rank: 1
+        gender: 0
+        look: 1
+        missions: 5
+        kills: 2
+        armor: STR_ARMORED_VEST_UC
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - itemType: STR_FIELD_MEDI_PACK
+            slot: STR_BACK_PACK
+            slotY: 1
+          - itemType: STR_RIFLE
+            slot: STR_RIGHT_HAND
+            ammoItem: STR_RIFLE_CLIP
+          - itemType: STR_SMOKE_GRENADE
+            slot: STR_LEFT_HAND
+            fuseTimer: 0
+        diary:
+          commendations:
+            - commendationName: STR_MEDAL_ONE_MONTH_SERVICE
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_MEDIKIT
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_REVIVE
+              decorationLevel: 1
+            - commendationName: STR_MEDAL_TOTAL_IMPORTANT_MISSIONS
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_TOTAL_MISSION_COUNT
+              decorationLevel: 0
+          killList:
+            - name: Jens Rifleman
+              rank: STR_SERGEANT
+              race: STR_FRIENDLY
+              weapon: STR_RIFLE
+              weaponAmmo: STR_RIFLE_CLIP
+              status: 6
+              faction: 0
+              mission: 2
+              turn: 678
+              side: 2
+              bodypart: 0
+              id: 4
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_RIFLE
+              weaponAmmo: STR_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 4
+              turn: 1221
+              side: 2
+              bodypart: 2
+              id: 1000009
+          missionIdList:
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+          totalShotFriendlyCounter: 2
+          monthsService: 2
+          shotAtCounterTotal: 1
+          shotsFiredCounterTotal: 11
+          shotsLandedCounterTotal: 1
+          statGainTotal: 15
+          revivedUnitTotal: 1
+          revivedSoldierTotal: 1
+          wholeMedikitTotal: 1
+      - type: STR_SOLDIER
+        id: 12
+        name: Masanori Assault
+        initialStats:
+          tu: 51
+          stamina: 69
+          health: 35
+          bravery: 20
+          reactions: 59
+          firing: 60
+          throwing: 70
+          strength: 21
+          psiStrength: 27
+          psiSkill: 0
+          melee: 53
+        currentStats:
+          tu: 53
+          stamina: 73
+          health: 39
+          bravery: 20
+          reactions: 59
+          firing: 60
+          throwing: 73
+          strength: 22
+          psiStrength: 27
+          psiSkill: 0
+          melee: 53
+        rank: 2
+        gender: 0
+        look: 3
+        missions: 5
+        kills: 1
+        armor: STR_ARMORED_VEST_UC
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - itemType: STR_GRENADE
+            slot: STR_BELT
+            slotX: 1
+          - itemType: STR_RIFLE
+            slot: STR_RIGHT_HAND
+            ammoItem: STR_RIFLE_CLIP
+          - itemType: STR_RIFLE_CLIP
+            slot: STR_BELT
+          - itemType: STR_RIFLE_CLIP
+            slot: STR_BELT
+            slotY: 1
+        diary:
+          commendations:
+            - commendationName: STR_MEDAL_ONE_MONTH_SERVICE
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_IMPORTANT_ALIENS_KNOCKED_OUT
+              decorationLevel: 9
+            - commendationName: STR_MEDAL_TOTAL_IMPORTANT_MISSIONS
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_TOTAL_MISSION_COUNT
+              decorationLevel: 0
+          killList:
+            - type: STR_SECTOID_NAVIGATOR
+              rank: STR_LIVE_NAVIGATOR
+              race: STR_SECTOID
+              weapon: STR_RIFLE
+              weaponAmmo: STR_RIFLE_CLIP
+              status: 7
+              faction: 1
+              mission: 4
+              turn: 1242
+              side: 1
+              bodypart: 3
+              id: 1000010
+            - type: STR_SECTOID_NAVIGATOR
+              rank: STR_LIVE_NAVIGATOR
+              race: STR_SECTOID
+              weapon: STR_RIFLE
+              weaponAmmo: STR_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 4
+              turn: 1243
+              side: 1
+              bodypart: 3
+              id: 1000010
+          missionIdList:
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+          monthsService: 2
+          shotsFiredCounterTotal: 12
+          shotsLandedCounterTotal: 2
+          statGainTotal: 14
+      - type: STR_SOLDIER
+        id: 2
+        name: Chris Kyle Sniper
+        initialStats:
+          tu: 57
+          stamina: 65
+          health: 39
+          bravery: 60
+          reactions: 47
+          firing: 66
+          throwing: 61
+          strength: 25
+          psiStrength: 22
+          psiSkill: 0
+          melee: 44
+        currentStats:
+          tu: 68
+          stamina: 72
+          health: 42
+          bravery: 60
+          reactions: 48
+          firing: 77
+          throwing: 61
+          strength: 36
+          psiStrength: 22
+          psiSkill: 0
+          melee: 44
+        rank: 3
+        gender: 0
+        look: 0
+        missions: 6
+        kills: 9
+        armor: STR_ARMORED_VEST_UC
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - itemType: STR_PROXIMITY_GRENADE
+            slot: STR_BELT
+            slotX: 1
+          - itemType: STR_SNIPER_RIFLE
+            slot: STR_RIGHT_HAND
+            ammoItem: STR_SNIPER_RIFLE_CLIP
+          - itemType: STR_SNIPER_RIFLE_CLIP
+            slot: STR_BELT
+          - itemType: STR_SNIPER_RIFLE_CLIP
+            slot: STR_BELT
+            slotX: 2
+          - itemType: STR_SNIPER_RIFLE_CLIP
+            slot: STR_BELT
+            slotY: 1
+        diary:
+          commendations:
+            - commendationName: STR_MEDAL_ORIGINAL8_NAME
+              noun: NoNoun
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_ONE_MONTH_SERVICE
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_TOTAL_MISSION_COUNT
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_TOTAL_IMPORTANT_MISSIONS
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_WEAPON_PROFICIENCY
+              noun: STR_SNIPER_RIFLE
+              decorationLevel: 1
+          killList:
+            - type: STR_FLOATER_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_FLOATER
+              weapon: STR_SNIPER_RIFLE
+              weaponAmmo: STR_SNIPER_RIFLE_CLIP
+              status: 7
+              faction: 1
+              mission: 0
+              turn: 15
+              side: 2
+              bodypart: 2
+              id: 1000004
+            - type: STR_FLOATER_ENGINEER
+              rank: STR_LIVE_ENGINEER
+              race: STR_FLOATER
+              weapon: STR_SNIPER_RIFLE
+              weaponAmmo: STR_SNIPER_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 0
+              turn: 18
+              side: 0
+              bodypart: 1
+              id: 1000012
+            - type: STR_FLOATER_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_FLOATER
+              weapon: STR_SNIPER_RIFLE
+              weaponAmmo: STR_SNIPER_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 0
+              turn: 24
+              side: 2
+              bodypart: 2
+              id: 1000003
+            - type: STR_FLOATER_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_FLOATER
+              weapon: STR_SNIPER_RIFLE
+              weaponAmmo: STR_SNIPER_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 2
+              turn: 645
+              side: 0
+              bodypart: 1
+              id: 1000014
+            - type: STR_FLOATER_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_FLOATER
+              weapon: STR_SNIPER_RIFLE
+              weaponAmmo: STR_SNIPER_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 2
+              turn: 666
+              side: 0
+              bodypart: 1
+              id: 1000008
+            - type: STR_SECTOID_NAVIGATOR
+              rank: STR_LIVE_NAVIGATOR
+              race: STR_SECTOID
+              weapon: STR_SNIPER_RIFLE
+              weaponAmmo: STR_SNIPER_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 3
+              turn: 909
+              side: 3
+              bodypart: 1
+              id: 1000011
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_SNIPER_RIFLE
+              weaponAmmo: STR_SNIPER_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 3
+              turn: 912
+              side: 1
+              bodypart: 3
+              id: 1000008
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_SNIPER_RIFLE
+              weaponAmmo: STR_SNIPER_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 4
+              turn: 1212
+              side: 0
+              bodypart: 1
+              id: 1000005
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_SNIPER_RIFLE
+              weaponAmmo: STR_SNIPER_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 4
+              turn: 1215
+              side: 0
+              bodypart: 1
+              id: 1000004
+            - type: STR_SECTOID_NAVIGATOR
+              rank: STR_LIVE_NAVIGATOR
+              race: STR_SECTOID
+              weapon: STR_SNIPER_RIFLE
+              weaponAmmo: STR_SNIPER_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 4
+              turn: 1218
+              side: 0
+              bodypart: 1
+              id: 1000011
+          missionIdList:
+            - 0
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+          monthsService: 2
+          longDistanceHitCounterTotal: 2
+          shotsFiredCounterTotal: 19
+          shotsLandedCounterTotal: 16
+          statGainTotal: 44
+      - type: STR_SOLDIER
+        id: 26
+        name: Kamila Scout
+        initialStats:
+          tu: 52
+          stamina: 41
+          health: 28
+          bravery: 10
+          reactions: 48
+          firing: 63
+          throwing: 77
+          strength: 25
+          psiStrength: 35
+          psiSkill: 0
+          melee: 58
+        currentStats:
+          tu: 59
+          stamina: 46
+          health: 33
+          bravery: 10
+          reactions: 48
+          firing: 67
+          throwing: 80
+          strength: 32
+          psiStrength: 35
+          psiSkill: 0
+          melee: 58
+        rank: 1
+        gender: 1
+        look: 0
+        missions: 4
+        kills: 5
+        armor: STR_ARMORED_VEST_UC
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - itemType: STR_GRENADE
+            slot: STR_BELT
+            slotX: 2
+          - itemType: STR_RIFLE
+            slot: STR_RIGHT_HAND
+            ammoItem: STR_RIFLE_CLIP
+          - itemType: STR_SMOKE_GRENADE
+            slot: STR_LEFT_HAND
+            fuseTimer: 0
+          - itemType: STR_RIFLE_CLIP
+            slot: STR_BELT
+        diary:
+          commendations:
+            - commendationName: STR_MEDAL_ONE_MONTH_SERVICE
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_TOTAL_MISSION_COUNT
+              decorationLevel: 0
+          killList:
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_RIFLE
+              weaponAmmo: STR_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 6
+              turn: 1836
+              side: 0
+              bodypart: 1
+              id: 1000006
+            - type: STR_SECTOID_ENGINEER
+              rank: STR_LIVE_ENGINEER
+              race: STR_SECTOID
+              weapon: STR_RIFLE
+              weaponAmmo: STR_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 9
+              turn: 2727
+              side: 0
+              bodypart: 1
+              id: 1000017
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_RIFLE
+              weaponAmmo: STR_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 9
+              turn: 2745
+              side: 3
+              bodypart: 1
+              id: 1000006
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_RIFLE
+              weaponAmmo: STR_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 9
+              turn: 2749
+              side: 0
+              bodypart: 1
+              id: 1000004
+            - type: STR_SECTOID_LEADER
+              rank: STR_LIVE_LEADER
+              race: STR_SECTOID
+              weapon: STR_RIFLE
+              weaponAmmo: STR_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 9
+              turn: 2757
+              side: 3
+              bodypart: 1
+              id: 1000018
+          missionIdList:
+            - 6
+            - 7
+            - 8
+            - 9
+          monthsService: 1
+          shotAtCounterTotal: 4
+          shotsFiredCounterTotal: 21
+          shotsLandedCounterTotal: 6
+          statGainTotal: 31
+      - type: STR_SOLDIER
+        id: 28
+        name: Do-hyun Grenadier
+        initialStats:
+          tu: 54
+          stamina: 60
+          health: 27
+          bravery: 60
+          reactions: 50
+          firing: 63
+          throwing: 75
+          strength: 39
+          psiStrength: 37
+          psiSkill: 0
+          melee: 60
+        currentStats:
+          tu: 58
+          stamina: 68
+          health: 36
+          bravery: 60
+          reactions: 50
+          firing: 65
+          throwing: 75
+          strength: 45
+          psiStrength: 37
+          psiSkill: 0
+          melee: 60
+        rank: 1
+        gender: 0
+        look: 2
+        missions: 4
+        kills: 5
+        armor: STR_ARMORED_VEST_UC
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - itemType: STR_GRENADE_LAUNCHER
+            slot: STR_RIGHT_HAND
+            ammoItem: STR_GRENADE_LAUNCHER_HE_AMMO
+          - itemType: STR_GRENADE_LAUNCHER_HE_AMMO
+            slot: STR_BELT
+          - itemType: STR_GRENADE_LAUNCHER_HE_AMMO
+            slot: STR_BELT
+            slotX: 1
+          - itemType: STR_GRENADE_LAUNCHER_HE_AMMO
+            slot: STR_BELT
+            slotX: 2
+          - itemType: STR_GRENADE_LAUNCHER_HE_AMMO
+            slot: STR_BACK_PACK
+            slotX: 2
+            slotY: 2
+          - itemType: STR_GRENADE_LAUNCHER_IC_AMMO
+            slot: STR_BELT
+            slotX: 3
+            slotY: 1
+          - itemType: STR_GRENADE_LAUNCHER_IC_AMMO
+            slot: STR_BELT
+            slotX: 3
+          - itemType: STR_GRENADE_LAUNCHER_SMOKE_AMMO
+            slot: STR_BELT
+            slotY: 1
+        diary:
+          commendations:
+            - commendationName: STR_MEDAL_ONE_MONTH_SERVICE
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_TOTAL_MISSION_COUNT
+              decorationLevel: 0
+          killList:
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 6
+              faction: 1
+              mission: 6
+              turn: 1815
+              side: 4
+              bodypart: 1
+              id: 1000010
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 6
+              faction: 1
+              mission: 6
+              turn: 1818
+              side: 4
+              bodypart: 1
+              id: 1000003
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 6
+              faction: 1
+              mission: 6
+              turn: 1821
+              side: 2
+              bodypart: 2
+              id: 1000011
+            - type: STR_SECTOID_NAVIGATOR
+              rank: STR_LIVE_NAVIGATOR
+              race: STR_SECTOID
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 6
+              faction: 1
+              mission: 6
+              turn: 1833
+              side: 3
+              bodypart: 1
+              id: 1000012
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 6
+              faction: 1
+              mission: 9
+              turn: 2712
+              side: 4
+              bodypart: 1
+              id: 1000003
+          missionIdList:
+            - 6
+            - 7
+            - 8
+            - 9
+          monthsService: 1
+          longDistanceHitCounterTotal: 1
+          shotsFiredCounterTotal: 12
+          shotsLandedCounterTotal: 2
+          statGainTotal: 29
+      - type: STR_SOLDIER
+        id: 25
+        name: Ismael Support
+        initialStats:
+          tu: 50
+          stamina: 63
+          health: 33
+          bravery: 50
+          reactions: 44
+          firing: 58
+          throwing: 74
+          strength: 37
+          psiStrength: 39
+          psiSkill: 0
+          melee: 41
+        currentStats:
+          tu: 53
+          stamina: 63
+          health: 33
+          bravery: 50
+          reactions: 44
+          firing: 60
+          throwing: 74
+          strength: 37
+          psiStrength: 39
+          psiSkill: 0
+          melee: 41
+        rank: 1
+        gender: 0
+        look: 1
+        missions: 6
+        kills: 0
+        armor: STR_ARMORED_VEST_UC
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - itemType: STR_FIELD_MEDI_PACK
+            slot: STR_BACK_PACK
+          - itemType: STR_FLASHBANG_GRENADE
+            slot: STR_BELT
+            slotX: 1
+          - itemType: STR_GRENADE
+            slot: STR_BELT
+            slotX: 2
+          - itemType: STR_RIFLE
+            slot: STR_RIGHT_HAND
+            ammoItem: STR_RIFLE_CLIP
+          - itemType: STR_RIFLE_CLIP
+            slot: STR_BELT
+        diary:
+          commendations:
+            - commendationName: STR_MEDAL_ONE_MONTH_SERVICE
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_TOTAL_MISSION_COUNT
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_TOTAL_IMPORTANT_MISSIONS
+              decorationLevel: 0
+          missionIdList:
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+            - 9
+          monthsService: 2
+          lowAccuracyHitCounterTotal: 2
+          shotsFiredCounterTotal: 19
+          shotsLandedCounterTotal: 4
+          woundsHealedTotal: 1
+          statGainTotal: 5
+      - type: STR_SOLDIER
+        id: 22
+        name: Ferdi Sniper
+        initialStats:
+          tu: 55
+          stamina: 48
+          health: 36
+          bravery: 20
+          reactions: 41
+          firing: 70
+          throwing: 73
+          strength: 27
+          psiStrength: 17
+          psiSkill: 0
+          melee: 54
+        currentStats:
+          tu: 58
+          stamina: 55
+          health: 42
+          bravery: 20
+          reactions: 41
+          firing: 76
+          throwing: 73
+          strength: 30
+          psiStrength: 17
+          psiSkill: 0
+          melee: 54
+        rank: 1
+        gender: 0
+        look: 1
+        missions: 6
+        kills: 8
+        armor: STR_ARMORED_VEST_UC
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - itemType: STR_PROXIMITY_GRENADE
+            slot: STR_BELT
+            slotY: 1
+          - itemType: STR_PROXIMITY_GRENADE
+            slot: STR_BELT
+            slotX: 3
+            slotY: 1
+          - itemType: STR_SNIPER_RIFLE
+            slot: STR_RIGHT_HAND
+            ammoItem: STR_SNIPER_RIFLE_CLIP
+          - itemType: STR_SNIPER_RIFLE_CLIP
+            slot: STR_BELT
+          - itemType: STR_SNIPER_RIFLE_CLIP
+            slot: STR_BELT
+            slotX: 1
+          - itemType: STR_SNIPER_RIFLE_CLIP
+            slot: STR_BELT
+            slotX: 2
+        diary:
+          commendations:
+            - commendationName: STR_MEDAL_ONE_MONTH_SERVICE
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_TOTAL_MISSION_COUNT
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_FLANKSHOT
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_TOTAL_IMPORTANT_MISSIONS
+              decorationLevel: 0
+          killList:
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 6
+              faction: 1
+              mission: 4
+              turn: 1209
+              side: 3
+              bodypart: 1
+              id: 1000006
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_SNIPER_RIFLE
+              weaponAmmo: STR_SNIPER_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 6
+              turn: 1824
+              side: 2
+              bodypart: 2
+              id: 1000008
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_SNIPER_RIFLE
+              weaponAmmo: STR_SNIPER_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 6
+              turn: 1827
+              side: 0
+              bodypart: 1
+              id: 1000004
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_SNIPER_RIFLE
+              weaponAmmo: STR_SNIPER_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 6
+              turn: 1830
+              side: 1
+              bodypart: 3
+              id: 1000002
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_SNIPER_RIFLE
+              weaponAmmo: STR_SNIPER_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 9
+              turn: 2718
+              side: 1
+              bodypart: 3
+              id: 1000001
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_SNIPER_RIFLE
+              weaponAmmo: STR_SNIPER_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 9
+              turn: 2740
+              side: 1
+              bodypart: 3
+              id: 1000008
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_SNIPER_RIFLE
+              weaponAmmo: STR_SNIPER_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 9
+              turn: 2745
+              side: 1
+              bodypart: 3
+              id: 1000011
+            - type: STR_SECTOID_NAVIGATOR
+              rank: STR_LIVE_NAVIGATOR
+              race: STR_SECTOID
+              weapon: STR_SNIPER_RIFLE
+              weaponAmmo: STR_SNIPER_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 9
+              turn: 2754
+              side: 2
+              bodypart: 2
+              id: 1000012
+          missionIdList:
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+            - 9
+          monthsService: 2
+          shotAtCounterTotal: 2
+          hitCounterTotal: 1
+          longDistanceHitCounterTotal: 1
+          shotsFiredCounterTotal: 17
+          shotsLandedCounterTotal: 9
+          statGainTotal: 25
+      - type: STR_SOLDIER
+        id: 34
+        name: Assault
+        initialStats:
+          tu: 59
+          stamina: 51
+          health: 33
+          bravery: 30
+          reactions: 32
+          firing: 47
+          throwing: 68
+          strength: 35
+          psiStrength: 65
+          psiSkill: 0
+          melee: 50
+        currentStats:
+          tu: 60
+          stamina: 54
+          health: 37
+          bravery: 30
+          reactions: 32
+          firing: 50
+          throwing: 68
+          strength: 40
+          psiStrength: 65
+          psiSkill: 0
+          melee: 50
+        rank: 1
+        gender: 0
+        look: 0
+        missions: 1
+        kills: 3
+        armor: STR_ARMORED_VEST_UC
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - itemType: STR_FLASHBANG_GRENADE
+            slot: STR_BELT
+            slotY: 1
+          - itemType: STR_GRENADE
+            slot: STR_BELT
+            slotX: 3
+          - itemType: STR_GRENADE
+            slot: STR_BELT
+            slotX: 3
+            slotY: 1
+          - itemType: STR_INC_GRENADE
+            slot: STR_BELT
+            slotX: 2
+          - itemType: STR_RIFLE
+            slot: STR_RIGHT_HAND
+            ammoItem: STR_RIFLE_CLIP
+          - itemType: STR_SMOKE_GRENADE
+            slot: STR_LEFT_HAND
+            fuseTimer: 0
+          - itemType: STR_RIFLE_AA_CLIP
+            slot: STR_BELT
+          - itemType: STR_RIFLE_CLIP
+            slot: STR_BELT
+            slotX: 1
+        diary:
+          commendations:
+            - commendationName: STR_MEDAL_WOUNDED
+              decorationLevel: 0
+          killList:
+            - type: STR_FLOATER_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_FLOATER
+              weapon: STR_RIFLE
+              weaponAmmo: STR_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 10
+              turn: 3030
+              side: 0
+              bodypart: 1
+              id: 1000007
+            - type: STR_FLOATER_NAVIGATOR
+              rank: STR_LIVE_NAVIGATOR
+              race: STR_FLOATER
+              weapon: STR_RIFLE
+              weaponAmmo: STR_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 10
+              turn: 3069
+              side: 3
+              bodypart: 1
+              id: 1000015
+            - type: STR_FLOATER_LEADER
+              rank: STR_LIVE_LEADER
+              race: STR_FLOATER
+              weapon: STR_RIFLE
+              weaponAmmo: STR_RIFLE_CLIP
+              status: 6
+              faction: 1
+              mission: 10
+              turn: 3078
+              side: 0
+              bodypart: 1
+              id: 1000021
+          missionIdList:
+            - 10
+          daysWoundedTotal: 10
+          unconciousTotal: 1
+          shotAtCounterTotal: 3
+          hitCounterTotal: 2
+          lowAccuracyHitCounterTotal: 1
+          shotsFiredCounterTotal: 13
+          shotsLandedCounterTotal: 3
+          timesWoundedTotal: 1
+          statGainTotal: 16
+      - type: STR_SOLDIER
+        id: 32
+        name: Alfonso MULE
+        initialStats:
+          tu: 50
+          stamina: 48
+          health: 27
+          bravery: 40
+          reactions: 39
+          firing: 44
+          throwing: 68
+          strength: 22
+          psiStrength: 69
+          psiSkill: 0
+          melee: 47
+        currentStats:
+          tu: 55
+          stamina: 52
+          health: 27
+          bravery: 40
+          reactions: 39
+          firing: 45
+          throwing: 69
+          strength: 26
+          psiStrength: 69
+          psiSkill: 0
+          melee: 47
+        rank: 1
+        gender: 0
+        look: 1
+        missions: 5
+        kills: 4
+        armor: STR_ARMORED_VEST_UC
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - itemType: STR_RIFLE_AA_CLIP
+            slot: STR_BACK_PACK
+            slotX: 1
+            slotY: 1
+          - itemType: STR_RIFLE_AA_CLIP
+            slot: STR_RIGHT_HAND
+          - itemType: STR_RIFLE_AA_CLIP
+            slot: STR_BACK_PACK
+            slotX: 1
+          - itemType: STR_RIFLE_AA_CLIP
+            slot: STR_BACK_PACK
+            slotX: 1
+            slotY: 2
+          - itemType: STR_RIFLE_CLIP
+            slot: STR_BACK_PACK
+            slotX: 2
+            slotY: 1
+          - itemType: STR_RIFLE_CLIP
+            slot: STR_LEFT_HAND
+          - itemType: STR_RIFLE_CLIP
+            slot: STR_BACK_PACK
+            slotX: 2
+          - itemType: STR_RIFLE_CLIP
+            slot: STR_BACK_PACK
+            slotX: 2
+            slotY: 2
+        diary:
+          commendations:
+            - commendationName: STR_MEDAL_ONE_MONTH_SERVICE
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_TOTAL_MISSION_COUNT
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_TOTAL_IMPORTANT_MISSIONS
+              decorationLevel: 0
+            - commendationName: STR_MEDAL_WOUNDED
+              decorationLevel: 0
+          killList:
+            - type: STR_FLOATER_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_FLOATER
+              weapon: STR_SHOTGUN
+              weaponAmmo: STR_SHOTGUN_CLIP
+              status: 6
+              faction: 1
+              mission: 10
+              turn: 3054
+              side: 3
+              bodypart: 1
+              id: 1000000
+            - type: STR_FLOATER_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_FLOATER
+              weapon: STR_SHOTGUN
+              weaponAmmo: STR_SHOTGUN_CLIP
+              status: 6
+              faction: 1
+              mission: 10
+              turn: 3060
+              side: 3
+              bodypart: 1
+              id: 1000002
+            - type: STR_FLOATER_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_FLOATER
+              weapon: STR_SHOTGUN
+              weaponAmmo: STR_SHOTGUN_CLIP
+              status: 6
+              faction: 1
+              mission: 10
+              turn: 3063
+              side: 2
+              bodypart: 2
+              id: 1000012
+            - type: STR_FLOATER_MEDIC
+              rank: STR_LIVE_MEDIC
+              race: STR_FLOATER
+              weapon: STR_SHOTGUN
+              weaponAmmo: STR_SHOTGUN_CLIP
+              status: 6
+              faction: 1
+              mission: 10
+              turn: 3066
+              side: 0
+              bodypart: 1
+              id: 1000018
+          missionIdList:
+            - 6
+            - 7
+            - 8
+            - 9
+            - 10
+          daysWoundedTotal: 4
+          monthsService: 1
+          shotsFiredCounterTotal: 4
+          shotsLandedCounterTotal: 15
+          timesWoundedTotal: 1
+          statGainTotal: 15
+      - type: STR_SOLDIER
+        id: 44
+        name: Tasayco Point
+        initialStats:
+          tu: 56
+          stamina: 67
+          health: 29
+          bravery: 10
+          reactions: 38
+          firing: 63
+          throwing: 55
+          strength: 23
+          psiStrength: 70
+          psiSkill: 0
+          melee: 44
+        currentStats:
+          tu: 57
+          stamina: 69
+          health: 34
+          bravery: 10
+          reactions: 40
+          firing: 67
+          throwing: 58
+          strength: 24
+          psiStrength: 70
+          psiSkill: 0
+          melee: 44
+        rank: 1
+        craft:
+          lon: 4.7764259531244146
+          lat: -0.24891756193486744
+          type: STR_SKYRANGER
+          id: 1
+        gender: 1
+        look: 0
+        missions: 2
+        kills: 3
+        armor: STR_ARMORED_VEST_UC
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - itemType: STR_RIFLE
+            slot: STR_RIGHT_HAND
+            ammoItem: STR_RIFLE_AA_CLIP
+          - itemType: STR_SMOKE_GRENADE
+            slot: STR_LEFT_HAND
+            fuseTimer: 0
+          - itemType: STR_SMOKE_GRENADE
+            slot: STR_BELT
+            fuseTimer: 0
+          - itemType: STR_SMOKE_GRENADE
+            slot: STR_BACK_PACK
+            slotY: 2
+        diary:
+          commendations:
+            - commendationName: STR_MEDAL_LUCKYSHOT
+              decorationLevel: 0
+          killList:
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_RIFLE
+              weaponAmmo: STR_RIFLE_AA_CLIP
+              status: 6
+              faction: 1
+              mission: 12
+              turn: 3636
+              side: 1
+              bodypart: 3
+              id: 1000006
+            - type: STR_SECTOID_NAVIGATOR
+              rank: STR_LIVE_NAVIGATOR
+              race: STR_SECTOID
+              weapon: STR_RIFLE
+              weaponAmmo: STR_RIFLE_AA_CLIP
+              status: 6
+              faction: 1
+              mission: 12
+              turn: 3639
+              side: 3
+              bodypart: 1
+              id: 1000008
+            - type: STR_SECTOID_ENGINEER
+              rank: STR_LIVE_ENGINEER
+              race: STR_SECTOID
+              weapon: STR_RIFLE
+              weaponAmmo: STR_RIFLE_AA_CLIP
+              status: 6
+              faction: 1
+              mission: 12
+              turn: 3651
+              side: 0
+              bodypart: 1
+              id: 1000010
+          missionIdList:
+            - 11
+            - 12
+          shotAtCounterTotal: 2
+          lowAccuracyHitCounterTotal: 3
+          shotsFiredCounterTotal: 23
+          shotsLandedCounterTotal: 8
+          statGainTotal: 18
+      - type: STR_SOLDIER
+        id: 52
+        name: Darweshi Grenadier
+        initialStats:
+          tu: 53
+          stamina: 67
+          health: 40
+          bravery: 60
+          reactions: 49
+          firing: 48
+          throwing: 71
+          strength: 38
+          psiStrength: 71
+          psiSkill: 0
+          melee: 40
+        currentStats:
+          tu: 53
+          stamina: 72
+          health: 42
+          bravery: 60
+          reactions: 49
+          firing: 48
+          throwing: 71
+          strength: 41
+          psiStrength: 71
+          psiSkill: 0
+          melee: 40
+        rank: 1
+        craft:
+          lon: 4.7764259531244146
+          lat: -0.24891756193486744
+          type: STR_SKYRANGER
+          id: 1
+        gender: 0
+        look: 2
+        missions: 2
+        kills: 2
+        armor: STR_ARMORED_VEST_UC
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - itemType: STR_GRENADE_LAUNCHER
+            slot: STR_RIGHT_HAND
+            ammoItem: STR_GRENADE_LAUNCHER_HE_AMMO
+          - itemType: STR_GRENADE_LAUNCHER_HE_AMMO
+            slot: STR_BACK_PACK
+            slotX: 1
+            slotY: 2
+          - itemType: STR_GRENADE_LAUNCHER_HE_AMMO
+            slot: STR_BACK_PACK
+            slotY: 2
+          - itemType: STR_GRENADE_LAUNCHER_HE_AMMO
+            slot: STR_BACK_PACK
+            slotX: 2
+            slotY: 2
+          - itemType: STR_GRENADE_LAUNCHER_HE_AMMO
+            slot: STR_BELT
+            slotX: 1
+          - itemType: STR_GRENADE_LAUNCHER_HE_AMMO
+            slot: STR_BELT
+          - itemType: STR_GRENADE_LAUNCHER_HE_AMMO
+            slot: STR_BELT
+            slotX: 2
+          - itemType: STR_GRENADE_LAUNCHER_HE_AMMO
+            slot: STR_BELT
+            slotX: 3
+          - itemType: STR_GRENADE_LAUNCHER_HE_AMMO
+            slot: STR_BELT
+            slotY: 1
+        diary:
+          killList:
+            - type: STR_SECTOID_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_SECTOID
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 6
+              faction: 1
+              mission: 12
+              turn: 3609
+              side: 2
+              bodypart: 2
+              id: 1000002
+            - type: STR_SECTOID_NAVIGATOR
+              rank: STR_LIVE_NAVIGATOR
+              race: STR_SECTOID
+              weapon: STR_GRENADE_LAUNCHER
+              weaponAmmo: STR_GRENADE_LAUNCHER_HE_AMMO
+              status: 6
+              faction: 1
+              mission: 12
+              turn: 3660
+              side: 4
+              bodypart: 1
+              id: 1000009
+          missionIdList:
+            - 11
+            - 12
+          longDistanceHitCounterTotal: 1
+          lowAccuracyHitCounterTotal: 1
+          shotsFiredCounterTotal: 7
+          shotsLandedCounterTotal: 1
+          statGainTotal: 10
+      - type: STR_SOLDIER
+        id: 53
+        name: Hayate Support
+        initialStats:
+          tu: 52
+          stamina: 67
+          health: 35
+          bravery: 40
+          reactions: 38
+          firing: 42
+          throwing: 69
+          strength: 22
+          psiStrength: 73
+          psiSkill: 0
+          melee: 40
+        currentStats:
+          tu: 52
+          stamina: 67
+          health: 35
+          bravery: 40
+          reactions: 38
+          firing: 42
+          throwing: 69
+          strength: 22
+          psiStrength: 73
+          psiSkill: 0
+          melee: 40
+        rank: 0
+        craft:
+          lon: 4.7764259531244146
+          lat: -0.24891756193486744
+          type: STR_SKYRANGER
+          id: 1
+        gender: 0
+        look: 1
+        missions: 2
+        kills: 0
+        armor: STR_ARMORED_VEST_UC
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - itemType: STR_SHOTGUN
+            slot: STR_RIGHT_HAND
+            ammoItem: STR_SHOTGUN_CLIP
+          - itemType: STR_GRENADE_LAUNCHER_HE_AMMO
+            slot: STR_BACK_PACK
+            slotX: 1
+            slotY: 2
+          - itemType: STR_GRENADE_LAUNCHER_HE_AMMO
+            slot: STR_BACK_PACK
+            slotY: 2
+          - itemType: STR_GRENADE_LAUNCHER_HE_AMMO
+            slot: STR_BACK_PACK
+            slotX: 2
+            slotY: 2
+        diary:
+          missionIdList:
+            - 11
+            - 12
+      - type: STR_SOLDIER
+        id: 36
+        name: Ellen Support
+        initialStats:
+          tu: 60
+          stamina: 46
+          health: 31
+          bravery: 20
+          reactions: 32
+          firing: 56
+          throwing: 72
+          strength: 27
+          psiStrength: 47
+          psiSkill: 0
+          melee: 44
+        currentStats:
+          tu: 60
+          stamina: 46
+          health: 31
+          bravery: 20
+          reactions: 32
+          firing: 56
+          throwing: 72
+          strength: 27
+          psiStrength: 47
+          psiSkill: 0
+          melee: 44
+        rank: 0
+        gender: 1
+        look: 1
+        missions: 1
+        kills: 0
+        armor: STR_ARMORED_VEST_UC
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - itemType: STR_FIELD_MEDI_PACK
+            slot: STR_RIGHT_HAND
+          - itemType: STR_SMOKE_GRENADE
+            slot: STR_LEFT_HAND
+            fuseTimer: 0
+          - itemType: STR_SMOKE_GRENADE
+            slot: STR_BELT
+            fuseTimer: 0
+          - itemType: STR_SMOKE_GRENADE
+            slot: STR_BELT
+            slotX: 1
+          - itemType: STR_SMOKE_GRENADE
+            slot: STR_BELT
+            slotX: 2
+        diary:
+          commendations:
+            - commendationName: STR_MEDAL_MEDIKIT
+              decorationLevel: 0
+          missionIdList:
+            - 10
+          shotAtCounterTotal: 2
+          woundsHealedTotal: 1
+          wholeMedikitTotal: 1
+      - type: STR_SOLDIER
+        id: 39
+        name: Chimera Sniper
+        initialStats:
+          tu: 54
+          stamina: 68
+          health: 25
+          bravery: 20
+          reactions: 58
+          firing: 70
+          throwing: 71
+          strength: 21
+          psiStrength: 63
+          psiSkill: 0
+          melee: 55
+        currentStats:
+          tu: 58
+          stamina: 70
+          health: 31
+          bravery: 20
+          reactions: 58
+          firing: 72
+          throwing: 71
+          strength: 25
+          psiStrength: 63
+          psiSkill: 0
+          melee: 55
+        rank: 2
+        craft:
+          lon: 4.7764259531244146
+          lat: -0.24891756193486744
+          type: STR_SKYRANGER
+          id: 1
+        gender: 0
+        look: 0
+        missions: 3
+        kills: 5
+        armor: STR_ALLOY_VEST_UC
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - itemType: STR_SNIPER_RIFLE
+            slot: STR_RIGHT_HAND
+            ammoItem: STR_SNIPER_RIFLE_AA_CLIP
+          - itemType: STR_SNIPER_RIFLE_AA_CLIP
+            slot: STR_BELT
+            slotX: 1
+          - itemType: STR_SNIPER_RIFLE_AA_CLIP
+            slot: STR_BELT
+            slotX: 2
+          - itemType: STR_SNIPER_RIFLE_AA_CLIP
+            slot: STR_BELT
+          - itemType: STR_SNIPER_RIFLE_AA_CLIP
+            slot: STR_BELT
+            slotX: 3
+        diary:
+          killList:
+            - type: STR_FLOATER_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_FLOATER
+              weapon: STR_SNIPER_RIFLE
+              weaponAmmo: STR_SNIPER_RIFLE_AA_CLIP
+              status: 6
+              faction: 1
+              mission: 10
+              turn: 3012
+              side: 1
+              bodypart: 3
+              id: 1000009
+            - type: STR_FLOATER_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_FLOATER
+              weapon: STR_SNIPER_RIFLE
+              weaponAmmo: STR_SNIPER_RIFLE_AA_CLIP
+              status: 6
+              faction: 1
+              mission: 10
+              turn: 3027
+              side: 0
+              bodypart: 1
+              id: 1000001
+            - type: STR_FLOATER_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_FLOATER
+              weapon: STR_SNIPER_RIFLE
+              weaponAmmo: STR_SNIPER_RIFLE_AA_CLIP
+              status: 6
+              faction: 1
+              mission: 10
+              turn: 3036
+              side: 3
+              bodypart: 1
+              id: 1000011
+            - type: STR_FLOATER_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_FLOATER
+              weapon: STR_SNIPER_RIFLE
+              weaponAmmo: STR_SNIPER_RIFLE_AA_CLIP
+              status: 6
+              faction: 1
+              mission: 10
+              turn: 3054
+              side: 0
+              bodypart: 1
+              id: 1000003
+            - type: STR_FLOATER_SOLDIER
+              rank: STR_LIVE_SOLDIER
+              race: STR_FLOATER
+              weapon: STR_SNIPER_RIFLE
+              weaponAmmo: STR_SNIPER_RIFLE_AA_CLIP
+              status: 6
+              faction: 1
+              mission: 10
+              turn: 3066
+              side: 0
+              bodypart: 1
+              id: 1000013
+          missionIdList:
+            - 10
+            - 11
+            - 12
+          longDistanceHitCounterTotal: 2
+          shotsFiredCounterTotal: 7
+          shotsLandedCounterTotal: 6
+          statGainTotal: 18
+    crafts:
+      - lon: 4.7764259531244146
+        lat: -0.24891756193486744
+        id: 1
+        dest:
+          lon: 0.21706904715982284
+          lat: -0.85676157749214044
+          type: STR_BASE
+          id: 0
+        speedLon: 0.00020588944547074117
+        speedLat: -0.00023337921087670553
+        speedRadian: 0.0003070486647027061
+        speed: 760
+        type: STR_SKYRANGER
+        fuel: 1213
+        damage: 0
+        items:
+          STR_AC_AP_AMMO: 6
+          STR_AC_I_AMMO: 7
+          STR_AUTO_CANNON: 4
+          STR_COMBAT_KNIFE: 8
+          STR_ELECTRO_FLARE: 8
+          STR_FIELD_MEDI_PACK: 5
+          STR_FLASHBANG_GRENADE: 18
+          STR_GRENADE: 34
+          STR_GRENADE_LAUNCHER: 2
+          STR_GRENADE_LAUNCHER_HE_AMMO: 22
+          STR_GRENADE_LAUNCHER_IC_AMMO: 11
+          STR_GRENADE_LAUNCHER_SMOKE_AMMO: 15
+          STR_HC_AP_AMMO: 6
+          STR_HC_I_AMMO: 3
+          STR_HEAVY_CANNON: 2
+          STR_HIGH_EXPLOSIVE: 6
+          STR_INCENDIARY_ROCKET: 8
+          STR_INC_GRENADE: 18
+          STR_LARGE_ROCKET: 13
+          STR_PISTOL: 4
+          STR_PISTOL_CLIP: 13
+          STR_PROXIMITY_GRENADE: 20
+          STR_RIFLE: 20
+          STR_RIFLE_AA_CLIP: 89
+          STR_RIFLE_CLIP: 38
+          STR_ROCKET_LAUNCHER: 3
+          STR_SHOTGUN: 4
+          STR_SHOTGUN_CLIP: 16
+          STR_SMALL_ROCKET: 22
+          STR_SMOKE_GRENADE: 9
+          STR_SNIPER_RIFLE: 4
+          STR_SNIPER_RIFLE_AA_CLIP: 17
+          STR_SNIPER_RIFLE_CLIP: 22
+          STR_STUN_ROD: 2
+        status: STR_OUT
+        mission: true
+      - lon: 0.21706904715982284
+        lat: -0.85676157749214044
+        id: 1
+        speedLon: 0
+        speedLat: 0
+        speedRadian: 0
+        speed: 0
+        type: STR_INTERCEPTOR
+        fuel: 1000
+        damage: 0
+        weapons:
+          - type: STR_AVALANCHE
+            ammo: 3
+          - type: STR_STINGRAY
+            ammo: 6
+        items:
+          {}
+        status: STR_READY
+      - lon: 0.21706904715982284
+        lat: -0.85676157749214044
+        id: 3
+        speedLon: 0
+        speedLat: 0
+        speedRadian: 0
+        speed: 0
+        type: STR_INTERCEPTOR
+        fuel: 1000
+        damage: 0
+        weapons:
+          - type: STR_STINGRAY
+            ammo: 6
+          - type: STR_AVALANCHE
+            ammo: 3
+        items:
+          {}
+        status: STR_READY
+    items:
+      STR_AC_I_AMMO: 1
+      STR_ALIEN_ALLOYS: 272
+      STR_ALIEN_FOOD: 1
+      STR_ALIEN_GRENADE: 8
+      STR_ALIEN_SURGERY: 1
+      STR_ALLOY_VEST: 10
+      STR_ARMORED_VEST_CORPSE: 10
+      STR_AVALANCHE_MISSILES: 15
+      STR_CANNON: 1
+      STR_CANNON_ROUNDS_X50: 7
+      STR_DRONE_SCOUT: 2
+      STR_DRONE_SMOKE_AMMO: 33
+      STR_ELECTRO_FLARE: 6
+      STR_ELERIUM_115: 300
+      STR_ELERIUM_BOMB: 12
+      STR_EXAMINATION_ROOM: 1
+      STR_FIELD_MEDI_PACK: 3
+      STR_FIRE_BOMB: 4
+      STR_FLOATER_CORPSE: 1
+      STR_HEAVY_PLASMA: 1
+      STR_HEAVY_PLASMA_CLIP: 1
+      STR_HIGH_EXPLOSIVE: 1
+      STR_HWP_CANNON_SHELLS: 24
+      STR_HWP_ROCKETS: 16
+      STR_MIND_PROBE: 3
+      STR_PLASMA_BLADE: 1
+      STR_PLASMA_PISTOL: 1
+      STR_PLASMA_PISTOL_CLIP: 1
+      STR_PLASMA_RIFLE: 2
+      STR_PLASMA_RIFLE_CLIP: 1
+      STR_PLASMA_SHOTGUN: 4
+      STR_PLASMA_SHOTGUN_CLIP: 2
+      STR_PLASMA_SHOTGUN_ELERIUM_CLIP: 2
+      STR_PLASMA_SNIPER_RIFLE: 4
+      STR_PLASMA_SNIPER_RIFLE_CLIP: 1
+      STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP: 3
+      STR_PLASMA_SWORD: 3
+      STR_RIFLE_AA_CLIP: 5
+      STR_ROCKET_LAUNCHER: 2
+      STR_SECTOID_CORPSE: 13
+      STR_SHOTGUN: 4
+      STR_SHOTGUN_CLIP: 1
+      STR_SMALL_LAUNCHER: 4
+      STR_SNIPER_RIFLE_AA_CLIP: 2
+      STR_STINGRAY_MISSILES: 18
+      STR_TANK_CANNON_CORPSE: 1
+      STR_TANK_ROCKET_LAUNCHER: 1
+      STR_UFO_NAVIGATION: 3
+      STR_UFO_POWER_SOURCE: 1
+    scientists: 0
+    engineers: 21
+    research:
+      - project: STR_ALLOY_AIRFRAME
+        assigned: 10
+        spent: 90
+        cost: 145
+      - project: STR_MOTION_SCANNER
+        assigned: 13
+        spent: 117
+        cost: 145
+  - lon: 4.7725570981222498
+    lat: -0.23573225456953473
+    name: MURICA
+    facilities:
+      - type: STR_ACCESS_LIFT
+        x: 3
+        y: 3
+      - type: STR_HANGAR
+        x: 2
+        y: 4
+      - type: STR_SMALL_RADAR_SYSTEM
+        x: 3
+        y: 2
+      - type: STR_GENERAL_STORES
+        x: 3
+        y: 1
+      - type: STR_LARGE_RADAR_SYSTEM
+        x: 4
+        y: 2
+        buildTime: 11
+    crafts:
+      - lon: 4.7725570981222498
+        lat: -0.23573225456953473
+        id: 4
+        speedLon: 0
+        speedLat: 0
+        speedRadian: 0
+        speed: 0
+        type: STR_INTERCEPTOR
+        fuel: 979
+        damage: 43
+        weapons:
+          - type: STR_STINGRAY
+            ammo: 5
+            rearming: true
+          - type: STR_AVALANCHE
+            ammo: 1
+            rearming: true
+        items:
+          {}
+        status: STR_REPAIRS
+    items:
+      STR_AVALANCHE_MISSILES: 10
+      STR_STINGRAY_MISSILES: 4
+    scientists: 0
+    engineers: 0
+  - lon: 2.1035052636035765
+    lat: -0.27204993487472351
+    name: TAIWAN
+    facilities:
+      - type: STR_ACCESS_LIFT
+        x: 3
+        y: 3
+      - type: STR_HANGAR
+        x: 2
+        y: 4
+      - type: STR_SMALL_RADAR_SYSTEM
+        x: 3
+        y: 2
+    crafts:
+      - lon: 2.1035052636035765
+        lat: -0.27204993487472351
+        id: 5
+        speedLon: 0
+        speedLat: 0
+        speedRadian: 0
+        speed: 0
+        type: STR_INTERCEPTOR
+        fuel: 1000
+        damage: 0
+        weapons:
+          - type: 0
+          - type: 0
+        items:
+          {}
+        status: STR_READY
+    items:
+      {}
+    scientists: 0
+    engineers: 0
+alienBases:
+  - lon: 0.41704247499832575
+    lat: -0.89354884997276629
+    id: 1
+    race: STR_FLOATER
+    deployment: STR_ALIEN_BASE_ASSAULT
+alienMissions:
+  - type: STR_ALIEN_RESEARCH
+    region: STR_NORTH_AMERICA
+    race: STR_SECTOID
+    nextWave: 2
+    nextUfoCounter: 1
+    spawnCountdown: 24570
+    liveUfos: 0
+    uniqueID: 6
+    missionSiteZone: -1
+  - type: STR_ALIEN_RETALIATION
+    region: STR_NORTH_AMERICA
+    race: STR_SECTOID
+    nextWave: 0
+    nextUfoCounter: 0
+    spawnCountdown: 2340
+    liveUfos: 0
+    uniqueID: 8
+    missionSiteZone: -1
+discovered:
+  - STR_THE_ALIEN_THREAT
+  - STR_SUPPORT_DRONES
+  - STR_SOLDIER_ARMOR_REPAIR
+  - STR_ALIEN_ALLOYS
+  - STR_ALLOY_AMMO
+  - STR_ALLOY_VEST
+poppedResearch:
+  - STR_ALLOY_AIRFRAME
+  - STR_ALLOY_CANNON
+  - STR_ALLOY_KNIFE
+alienStrategy:
+  regions:
+    STR_ANTARCTICA: 4
+    STR_ARCTIC: 4
+    STR_AUSTRALASIA: 10
+    STR_CENTRAL_ASIA: 12
+    STR_EUROPE: 16
+    STR_INDIAN_OCEAN: 5
+    STR_NORTH_AFRICA: 12
+    STR_NORTH_AMERICA: 18
+    STR_NORTH_ATLANTIC: 5
+    STR_PACIFIC: 5
+    STR_SIBERIA: 10
+    STR_SOUTHERN_AFRICA: 8
+    STR_SOUTH_AMERICA: 10
+    STR_SOUTH_ATLANTIC: 5
+    STR_SOUTH_EAST_ASIA: 15
+  possibleMissions:
+    - region: PORT_DOCKS
+      missions: ~
+    - region: SHIPPING_LANES
+      missions: ~
+    - region: STR_ANTARCTICA
+      missions:
+        STR_ALIEN_BASE: 35
+        STR_ALIEN_RESEARCH: 25
+    - region: STR_ARCTIC
+      missions:
+        STR_ALIEN_BASE: 35
+        STR_ALIEN_RESEARCH: 25
+    - region: STR_AUSTRALASIA
+      missions:
+        STR_ALIEN_ABDUCTION: 4
+        STR_ALIEN_BASE: 16
+        STR_ALIEN_HARVEST: 11
+        STR_ALIEN_INFILTRATION: 8
+        STR_ALIEN_RESEARCH: 15
+    - region: STR_CENTRAL_ASIA
+      missions:
+        STR_ALIEN_ABDUCTION: 6
+        STR_ALIEN_BASE: 8
+        STR_ALIEN_HARVEST: 5
+        STR_ALIEN_INFILTRATION: 10
+        STR_ALIEN_RESEARCH: 5
+    - region: STR_EUROPE
+      missions:
+        STR_ALIEN_ABDUCTION: 15
+        STR_ALIEN_INFILTRATION: 20
+        STR_ALIEN_RESEARCH: 10
+    - region: STR_INDIAN_OCEAN
+      missions:
+        STR_ALIEN_BASE: 15
+        STR_ALIEN_RESEARCH: 15
+    - region: STR_NORTH_AFRICA
+      missions:
+        STR_ALIEN_ABDUCTION: 8
+        STR_ALIEN_BASE: 19
+        STR_ALIEN_HARVEST: 8
+        STR_ALIEN_INFILTRATION: 8
+        STR_ALIEN_RESEARCH: 8
+    - region: STR_NORTH_AMERICA
+      missions:
+        STR_ALIEN_ABDUCTION: 20
+        STR_ALIEN_BASE: 20
+        STR_ALIEN_HARVEST: 17
+        STR_ALIEN_INFILTRATION: 20
+    - region: STR_NORTH_ATLANTIC
+      missions:
+        STR_ALIEN_BASE: 15
+        STR_ALIEN_RESEARCH: 15
+    - region: STR_PACIFIC
+      missions:
+        STR_ALIEN_BASE: 15
+        STR_ALIEN_RESEARCH: 15
+    - region: STR_SIBERIA
+      missions:
+        STR_ALIEN_ABDUCTION: 4
+        STR_ALIEN_BASE: 9
+        STR_ALIEN_HARVEST: 4
+        STR_ALIEN_INFILTRATION: 4
+        STR_ALIEN_RESEARCH: 6
+    - region: STR_SOUTHERN_AFRICA
+      missions:
+        STR_ALIEN_ABDUCTION: 8
+        STR_ALIEN_BASE: 9
+        STR_ALIEN_HARVEST: 8
+        STR_ALIEN_INFILTRATION: 8
+        STR_ALIEN_RESEARCH: 7
+    - region: STR_SOUTH_AMERICA
+      missions:
+        STR_ALIEN_ABDUCTION: 12
+        STR_ALIEN_BASE: 22
+        STR_ALIEN_HARVEST: 24
+        STR_ALIEN_INFILTRATION: 18
+        STR_ALIEN_RESEARCH: 10
+    - region: STR_SOUTH_ATLANTIC
+      missions:
+        STR_ALIEN_BASE: 15
+        STR_ALIEN_RESEARCH: 15
+    - region: STR_SOUTH_EAST_ASIA
+      missions:
+        STR_ALIEN_ABDUCTION: 21
+        STR_ALIEN_BASE: 8
+        STR_ALIEN_HARVEST: 13
+        STR_ALIEN_INFILTRATION: 13
+        STR_ALIEN_RESEARCH: 8
+  missionLocations:
+    {}
+  missionsRun:
+    {}
+deadSoldiers:
+  - type: STR_SOLDIER
+    id: 9
+    name: Hanus Kriz
+    initialStats:
+      tu: 59
+      stamina: 54
+      health: 33
+      bravery: 30
+      reactions: 43
+      firing: 53
+      throwing: 56
+      strength: 36
+      psiStrength: 83
+      psiSkill: 0
+      melee: 40
+    currentStats:
+      tu: 59
+      stamina: 54
+      health: 33
+      bravery: 30
+      reactions: 43
+      firing: 53
+      throwing: 56
+      strength: 36
+      psiStrength: 83
+      psiSkill: 0
+      melee: 40
+    rank: 0
+    gender: 0
+    look: 1
+    missions: 1
+    kills: 0
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 15
+        minute: 19
+        hour: 10
+        weekday: 4
+        day: 13
+        month: 1
+        year: 1999
+      cause:
+        type: STR_FLOATER_SOLDIER
+        rank: STR_LIVE_SOLDIER
+        race: STR_FLOATER
+        weapon: STR_PLASMA_SHOTGUN
+        weaponAmmo: STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+        status: 6
+        faction: 1
+        mission: 0
+        turn: 7
+        side: 1
+        bodypart: 3
+        id: 9
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+      missionIdList:
+        - 0
+      shotAtCounterTotal: 1
+      hitCounterTotal: 2
+  - type: STR_SOLDIER
+    id: 1
+    name: Julle Heavy
+    initialStats:
+      tu: 59
+      stamina: 63
+      health: 30
+      bravery: 40
+      reactions: 46
+      firing: 58
+      throwing: 59
+      strength: 31
+      psiStrength: 87
+      psiSkill: 0
+      melee: 58
+    currentStats:
+      tu: 59
+      stamina: 63
+      health: 30
+      bravery: 40
+      reactions: 46
+      firing: 58
+      throwing: 59
+      strength: 31
+      psiStrength: 87
+      psiSkill: 0
+      melee: 58
+    rank: 0
+    gender: 0
+    look: 3
+    missions: 1
+    kills: 0
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 15
+        minute: 19
+        hour: 10
+        weekday: 4
+        day: 13
+        month: 1
+        year: 1999
+      cause:
+        type: STR_FLOATER_SOLDIER
+        rank: STR_LIVE_SOLDIER
+        race: STR_FLOATER
+        weapon: STR_PLASMA_RIFLE
+        weaponAmmo: STR_PLASMA_RIFLE_CLIP
+        status: 6
+        faction: 1
+        mission: 0
+        turn: 21
+        side: 2
+        bodypart: 2
+        id: 1
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_ORIGINAL8_NAME
+          noun: NoNoun
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+      missionIdList:
+        - 0
+      shotAtCounterTotal: 2
+      hitCounterTotal: 2
+      lowAccuracyHitCounterTotal: 1
+      shotsFiredCounterTotal: 4
+      shotsLandedCounterTotal: 1
+  - type: STR_SOLDIER
+    id: 7
+    name: Oluwa Scout
+    initialStats:
+      tu: 59
+      stamina: 59
+      health: 36
+      bravery: 60
+      reactions: 59
+      firing: 42
+      throwing: 61
+      strength: 20
+      psiStrength: 20
+      psiSkill: 0
+      melee: 46
+    currentStats:
+      tu: 59
+      stamina: 59
+      health: 36
+      bravery: 60
+      reactions: 59
+      firing: 42
+      throwing: 62
+      strength: 20
+      psiStrength: 20
+      psiSkill: 0
+      melee: 46
+    rank: 0
+    gender: 0
+    look: 1
+    missions: 3
+    kills: 0
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 40
+        minute: 42
+        hour: 6
+        weekday: 1
+        day: 24
+        month: 1
+        year: 1999
+      cause:
+        type: STR_FLOATER_ENGINEER
+        rank: STR_LIVE_ENGINEER
+        race: STR_FLOATER
+        weapon: STR_PLASMA_SNIPER_RIFLE
+        weaponAmmo: STR_PLASMA_SNIPER_RIFLE_CLIP
+        status: 6
+        faction: 1
+        mission: 2
+        turn: 10
+        side: 1
+        bodypart: 3
+        id: 7
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_ORIGINAL8_NAME
+          noun: NoNoun
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+      missionIdList:
+        - 0
+        - 1
+        - 2
+      totalShotFriendlyCounter: 3
+      shotAtCounterTotal: 1
+      hitCounterTotal: 1
+      shotsFiredCounterTotal: 5
+      statGainTotal: 1
+  - type: STR_SOLDIER
+    id: 11
+    name: Koigi Scout
+    initialStats:
+      tu: 53
+      stamina: 58
+      health: 40
+      bravery: 60
+      reactions: 31
+      firing: 58
+      throwing: 56
+      strength: 28
+      psiStrength: 32
+      psiSkill: 0
+      melee: 59
+    currentStats:
+      tu: 53
+      stamina: 58
+      health: 40
+      bravery: 60
+      reactions: 31
+      firing: 58
+      throwing: 56
+      strength: 28
+      psiStrength: 32
+      psiSkill: 0
+      melee: 59
+    rank: 0
+    gender: 0
+    look: 3
+    missions: 2
+    kills: 4
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 40
+        minute: 42
+        hour: 6
+        weekday: 1
+        day: 24
+        month: 1
+        year: 1999
+      cause:
+        name: Koigi Scout
+        rank: STR_ROOKIE
+        race: STR_FRIENDLY
+        weapon: STR_HIGH_EXPLOSIVE
+        weaponAmmo: STR_HIGH_EXPLOSIVE
+        status: 6
+        faction: 0
+        mission: 2
+        turn: 19
+        side: 2
+        bodypart: 2
+        id: 11
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_DOUBLEKILL
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_GRENADIER
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_MARTYR
+          decorationLevel: 1
+        - commendationName: STR_MEDAL_TRAP
+          decorationLevel: 1
+      killList:
+        - type: STR_FLOATER_MEDIC
+          rank: STR_LIVE_MEDIC
+          race: STR_FLOATER
+          weapon: STR_RIFLE
+          weaponAmmo: STR_RIFLE_CLIP
+          status: 6
+          faction: 1
+          mission: 2
+          turn: 615
+          side: 0
+          bodypart: 1
+          id: 1000018
+        - name: Koigi Scout
+          rank: STR_ROOKIE
+          race: STR_FRIENDLY
+          weapon: STR_HIGH_EXPLOSIVE
+          weaponAmmo: STR_HIGH_EXPLOSIVE
+          status: 6
+          faction: 0
+          mission: 2
+          turn: 619
+          side: 2
+          bodypart: 2
+          id: 11
+        - type: STR_FLOATER_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_FLOATER
+          weapon: STR_HIGH_EXPLOSIVE
+          weaponAmmo: STR_HIGH_EXPLOSIVE
+          status: 6
+          faction: 1
+          mission: 2
+          turn: 619
+          side: 0
+          bodypart: 1
+          id: 1000000
+        - type: STR_FLOATER_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_FLOATER
+          weapon: STR_HIGH_EXPLOSIVE
+          weaponAmmo: STR_HIGH_EXPLOSIVE
+          status: 6
+          faction: 1
+          mission: 2
+          turn: 619
+          side: 0
+          bodypart: 1
+          id: 1000005
+      missionIdList:
+        - 1
+        - 2
+      shotAtCounterTotal: 4
+      hitCounterTotal: 3
+      shotsFiredCounterTotal: 6
+      shotsLandedCounterTotal: 3
+      martyrKillsTotal: 2
+  - type: STR_SOLDIER
+    id: 6
+    name: Jesper Medic
+    initialStats:
+      tu: 52
+      stamina: 62
+      health: 25
+      bravery: 40
+      reactions: 39
+      firing: 46
+      throwing: 70
+      strength: 34
+      psiStrength: 91
+      psiSkill: 0
+      melee: 60
+    currentStats:
+      tu: 52
+      stamina: 62
+      health: 25
+      bravery: 40
+      reactions: 39
+      firing: 46
+      throwing: 70
+      strength: 34
+      psiStrength: 91
+      psiSkill: 0
+      melee: 60
+    rank: 0
+    gender: 0
+    look: 0
+    missions: 3
+    kills: 2
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 40
+        minute: 42
+        hour: 6
+        weekday: 1
+        day: 24
+        month: 1
+        year: 1999
+      cause:
+        type: STR_FLOATER_SOLDIER
+        rank: STR_LIVE_SOLDIER
+        race: STR_FLOATER
+        weapon: STR_PLASMA_RIFLE
+        weaponAmmo: STR_PLASMA_RIFLE_CLIP
+        status: 6
+        faction: 1
+        mission: 2
+        turn: 37
+        side: 0
+        bodypart: 1
+        id: 6
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_ORIGINAL8_NAME
+          noun: NoNoun
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_DOUBLEKILL
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_POSTMORTEM_KILL
+          decorationLevel: 1
+        - commendationName: STR_MEDAL_TRAP
+          decorationLevel: 0
+      killList:
+        - type: STR_FLOATER_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_FLOATER
+          weapon: STR_HIGH_EXPLOSIVE
+          weaponAmmo: STR_HIGH_EXPLOSIVE
+          status: 6
+          faction: 1
+          mission: 2
+          turn: 640
+          side: 3
+          bodypart: 1
+          id: 1000004
+        - type: STR_FLOATER_ENGINEER
+          rank: STR_LIVE_ENGINEER
+          race: STR_FLOATER
+          weapon: STR_HIGH_EXPLOSIVE
+          weaponAmmo: STR_HIGH_EXPLOSIVE
+          status: 6
+          faction: 1
+          mission: 2
+          turn: 640
+          side: 2
+          bodypart: 2
+          id: 1000020
+      missionIdList:
+        - 0
+        - 1
+        - 2
+      shotAtCounterTotal: 1
+      hitCounterTotal: 1
+      shotsFiredCounterTotal: 11
+      postMortemKills: 2
+  - type: STR_SOLDIER
+    id: 3
+    name: Florèse MULE
+    initialStats:
+      tu: 52
+      stamina: 60
+      health: 40
+      bravery: 40
+      reactions: 43
+      firing: 54
+      throwing: 62
+      strength: 36
+      psiStrength: 5
+      psiSkill: 0
+      melee: 43
+    currentStats:
+      tu: 52
+      stamina: 60
+      health: 40
+      bravery: 40
+      reactions: 43
+      firing: 54
+      throwing: 63
+      strength: 36
+      psiStrength: 5
+      psiSkill: 0
+      melee: 43
+    rank: 0
+    gender: 1
+    look: 3
+    missions: 3
+    kills: 1
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 40
+        minute: 42
+        hour: 6
+        weekday: 1
+        day: 24
+        month: 1
+        year: 1999
+      cause:
+        type: STR_FLOATER_SOLDIER
+        rank: STR_LIVE_SOLDIER
+        race: STR_FLOATER
+        weapon: STR_PLASMA_SNIPER_RIFLE
+        weaponAmmo: STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+        status: 6
+        faction: 1
+        mission: 2
+        turn: 58
+        side: 3
+        bodypart: 1
+        id: 3
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_ORIGINAL8_NAME
+          noun: NoNoun
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_POSTMORTEM_KILL
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_TRAP
+          decorationLevel: 0
+      killList:
+        - type: STR_FLOATER_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_FLOATER
+          weapon: STR_HIGH_EXPLOSIVE
+          weaponAmmo: STR_HIGH_EXPLOSIVE
+          status: 6
+          faction: 1
+          mission: 2
+          turn: 685
+          side: 3
+          bodypart: 1
+          id: 1000003
+      missionIdList:
+        - 0
+        - 1
+        - 2
+      shotAtCounterTotal: 2
+      hitCounterTotal: 2
+      statGainTotal: 1
+      postMortemKills: 1
+  - type: STR_SOLDIER
+    id: 13
+    name: Harbha Heavy
+    initialStats:
+      tu: 51
+      stamina: 68
+      health: 39
+      bravery: 20
+      reactions: 36
+      firing: 68
+      throwing: 76
+      strength: 38
+      psiStrength: 73
+      psiSkill: 0
+      melee: 53
+    currentStats:
+      tu: 51
+      stamina: 68
+      health: 39
+      bravery: 20
+      reactions: 36
+      firing: 68
+      throwing: 76
+      strength: 38
+      psiStrength: 73
+      psiSkill: 0
+      melee: 53
+    rank: 0
+    gender: 0
+    look: 2
+    missions: 2
+    kills: 2
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 40
+        minute: 42
+        hour: 6
+        weekday: 1
+        day: 24
+        month: 1
+        year: 1999
+      cause:
+        type: STR_FLOATER_MEDIC
+        rank: STR_LIVE_MEDIC
+        race: STR_FLOATER
+        weapon: STR_PLASMA_RIFLE
+        weaponAmmo: STR_PLASMA_RIFLE_CLIP
+        status: 6
+        faction: 1
+        mission: 2
+        turn: 67
+        side: 0
+        bodypart: 1
+        id: 13
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_DOUBLEKILL
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+      killList:
+        - type: STR_FLOATER_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_FLOATER
+          weapon: STR_ROCKET_LAUNCHER
+          weaponAmmo: STR_LARGE_ROCKET
+          status: 6
+          faction: 1
+          mission: 2
+          turn: 663
+          side: 2
+          bodypart: 2
+          id: 1000002
+        - type: STR_FLOATER_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_FLOATER
+          weapon: STR_ROCKET_LAUNCHER
+          weaponAmmo: STR_LARGE_ROCKET
+          status: 6
+          faction: 1
+          mission: 2
+          turn: 663
+          side: 4
+          bodypart: 1
+          id: 1000011
+      missionIdList:
+        - 1
+        - 2
+      hitCounterTotal: 1
+      longDistanceHitCounterTotal: 1
+      shotsFiredCounterTotal: 2
+      shotsLandedCounterTotal: 1
+  - type: STR_SOLDIER
+    id: 14
+    name: Keahi Sniper
+    initialStats:
+      tu: 50
+      stamina: 52
+      health: 38
+      bravery: 10
+      reactions: 30
+      firing: 67
+      throwing: 61
+      strength: 29
+      psiStrength: 6
+      psiSkill: 0
+      melee: 56
+    currentStats:
+      tu: 50
+      stamina: 52
+      health: 38
+      bravery: 10
+      reactions: 30
+      firing: 67
+      throwing: 61
+      strength: 29
+      psiStrength: 6
+      psiSkill: 0
+      melee: 56
+    rank: 0
+    gender: 0
+    look: 2
+    missions: 2
+    kills: 3
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 40
+        minute: 42
+        hour: 6
+        weekday: 1
+        day: 24
+        month: 1
+        year: 1999
+      cause:
+        type: STR_FLOATER_SOLDIER
+        rank: STR_LIVE_SOLDIER
+        race: STR_FLOATER
+        weapon: STR_PLASMA_RIFLE
+        weaponAmmo: STR_PLASMA_RIFLE_CLIP
+        status: 6
+        faction: 1
+        mission: 2
+        turn: 73
+        side: 2
+        bodypart: 2
+        id: 14
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+      killList:
+        - type: STR_FLOATER_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_FLOATER
+          weapon: STR_SNIPER_RIFLE
+          weaponAmmo: STR_SNIPER_RIFLE_CLIP
+          status: 6
+          faction: 1
+          mission: 2
+          turn: 619
+          side: 0
+          bodypart: 1
+          id: 1000006
+        - type: STR_FLOATER_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_FLOATER
+          weapon: STR_SNIPER_RIFLE
+          weaponAmmo: STR_SNIPER_RIFLE_CLIP
+          status: 6
+          faction: 1
+          mission: 2
+          turn: 663
+          side: 0
+          bodypart: 1
+          id: 1000007
+        - type: STR_FLOATER_NAVIGATOR
+          rank: STR_LIVE_NAVIGATOR
+          race: STR_FLOATER
+          weapon: STR_SNIPER_RIFLE
+          weaponAmmo: STR_SNIPER_RIFLE_CLIP
+          status: 6
+          faction: 1
+          mission: 2
+          turn: 669
+          side: 3
+          bodypart: 1
+          id: 1000015
+      missionIdList:
+        - 1
+        - 2
+      hitCounterTotal: 1
+      longDistanceHitCounterTotal: 1
+      shotsFiredCounterTotal: 3
+      shotsLandedCounterTotal: 3
+  - type: STR_SOLDIER
+    id: 4
+    name: Jens Rifleman
+    initialStats:
+      tu: 52
+      stamina: 67
+      health: 38
+      bravery: 40
+      reactions: 35
+      firing: 62
+      throwing: 61
+      strength: 26
+      psiStrength: 67
+      psiSkill: 0
+      melee: 47
+    currentStats:
+      tu: 55
+      stamina: 68
+      health: 38
+      bravery: 40
+      reactions: 35
+      firing: 66
+      throwing: 61
+      strength: 31
+      psiStrength: 67
+      psiSkill: 0
+      melee: 47
+    rank: 2
+    gender: 0
+    look: 3
+    missions: 3
+    kills: 2
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 40
+        minute: 42
+        hour: 6
+        weekday: 1
+        day: 24
+        month: 1
+        year: 1999
+      cause:
+        name: Samuel Medic
+        rank: STR_ROOKIE
+        race: STR_FRIENDLY
+        weapon: STR_RIFLE
+        weaponAmmo: STR_RIFLE_CLIP
+        status: 6
+        faction: 0
+        mission: 2
+        turn: 78
+        side: 2
+        bodypart: 0
+        id: 4
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_ORIGINAL8_NAME
+          noun: NoNoun
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_BESTOFRANK
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_BESTSOLDIER
+          decorationLevel: 9
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+      killList:
+        - type: STR_FLOATER_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_FLOATER
+          weapon: STR_RIFLE
+          weaponAmmo: STR_RIFLE_CLIP
+          status: 6
+          faction: 1
+          mission: 0
+          turn: 9
+          side: 3
+          bodypart: 1
+          id: 1000001
+        - type: STR_FLOATER_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_FLOATER
+          weapon: STR_RIFLE
+          weaponAmmo: STR_RIFLE_CLIP
+          status: 6
+          faction: 1
+          mission: 0
+          turn: 15
+          side: 2
+          bodypart: 2
+          id: 1000008
+      missionIdList:
+        - 0
+        - 1
+        - 2
+      totalShotByFriendlyCounter: 2
+      shotAtCounterTotal: 1
+      hitCounterTotal: 3
+      lowAccuracyHitCounterTotal: 1
+      shotsFiredCounterTotal: 30
+      shotsLandedCounterTotal: 7
+      statGainTotal: 13
+      bestOfRank: 207
+  - type: STR_SOLDIER
+    id: 10
+    name: Ferenc Rifleman
+    initialStats:
+      tu: 57
+      stamina: 68
+      health: 32
+      bravery: 60
+      reactions: 59
+      firing: 62
+      throwing: 57
+      strength: 20
+      psiStrength: 53
+      psiSkill: 0
+      melee: 58
+    currentStats:
+      tu: 57
+      stamina: 68
+      health: 32
+      bravery: 60
+      reactions: 59
+      firing: 62
+      throwing: 57
+      strength: 20
+      psiStrength: 53
+      psiSkill: 0
+      melee: 58
+    rank: 0
+    gender: 0
+    look: 0
+    missions: 1
+    kills: 0
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 15
+        minute: 46
+        hour: 12
+        weekday: 4
+        day: 10
+        month: 2
+        year: 1999
+      cause:
+        type: STR_SECTOID_SOLDIER
+        rank: STR_LIVE_SOLDIER
+        race: STR_SECTOID
+        weapon: STR_PLASMA_SNIPER_RIFLE
+        weaponAmmo: STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+        status: 6
+        faction: 1
+        mission: 3
+        turn: 6
+        side: 0
+        bodypart: 1
+        id: 10
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_ONE_MONTH_SERVICE
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+      missionIdList:
+        - 3
+      monthsService: 1
+      shotAtCounterTotal: 1
+      hitCounterTotal: 1
+      shotsFiredCounterTotal: 6
+      shotsLandedCounterTotal: 1
+  - type: STR_SOLDIER
+    id: 31
+    name: Andrew Scout
+    initialStats:
+      tu: 57
+      stamina: 40
+      health: 34
+      bravery: 40
+      reactions: 36
+      firing: 40
+      throwing: 67
+      strength: 29
+      psiStrength: 67
+      psiSkill: 0
+      melee: 52
+    currentStats:
+      tu: 57
+      stamina: 40
+      health: 34
+      bravery: 40
+      reactions: 36
+      firing: 40
+      throwing: 67
+      strength: 29
+      psiStrength: 67
+      psiSkill: 0
+      melee: 52
+    rank: 0
+    gender: 0
+    look: 0
+    missions: 1
+    kills: 0
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 0
+        minute: 9
+        hour: 15
+        weekday: 1
+        day: 28
+        month: 2
+        year: 1999
+      cause:
+        type: STR_SECTOID_SOLDIER
+        rank: STR_LIVE_SOLDIER
+        race: STR_SECTOID
+        weapon: STR_PLASMA_RIFLE
+        weaponAmmo: STR_PLASMA_RIFLE_CLIP
+        status: 6
+        faction: 1
+        mission: 6
+        turn: 6
+        side: 3
+        bodypart: 1
+        id: 31
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+      missionIdList:
+        - 6
+      shotAtCounterTotal: 1
+      hitCounterTotal: 1
+  - type: STR_SOLDIER
+    id: 29
+    name: Bertalan Rifleman
+    initialStats:
+      tu: 58
+      stamina: 50
+      health: 27
+      bravery: 50
+      reactions: 53
+      firing: 50
+      throwing: 65
+      strength: 30
+      psiStrength: 34
+      psiSkill: 0
+      melee: 57
+    currentStats:
+      tu: 58
+      stamina: 50
+      health: 27
+      bravery: 50
+      reactions: 53
+      firing: 50
+      throwing: 65
+      strength: 30
+      psiStrength: 34
+      psiSkill: 0
+      melee: 57
+    rank: 0
+    gender: 0
+    look: 0
+    missions: 1
+    kills: 1
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 0
+        minute: 9
+        hour: 15
+        weekday: 1
+        day: 28
+        month: 2
+        year: 1999
+      cause:
+        type: STR_SECTOID_SOLDIER
+        rank: STR_LIVE_SOLDIER
+        race: STR_SECTOID
+        weapon: STR_HEAVY_PLASMA
+        weaponAmmo: STR_HEAVY_PLASMA_CLIP
+        status: 6
+        faction: 1
+        mission: 6
+        turn: 12
+        side: 0
+        bodypart: 1
+        id: 29
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+      killList:
+        - type: STR_SECTOID_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_SECTOID
+          weapon: STR_RIFLE
+          weaponAmmo: STR_RIFLE_CLIP
+          status: 6
+          faction: 1
+          mission: 6
+          turn: 1806
+          side: 0
+          bodypart: 1
+          id: 1000005
+      missionIdList:
+        - 6
+      shotAtCounterTotal: 1
+      hitCounterTotal: 1
+      shotsFiredCounterTotal: 9
+      shotsLandedCounterTotal: 4
+  - type: STR_SOLDIER
+    id: 20
+    name: William Assualt
+    initialStats:
+      tu: 55
+      stamina: 50
+      health: 32
+      bravery: 50
+      reactions: 56
+      firing: 68
+      throwing: 60
+      strength: 25
+      psiStrength: 90
+      psiSkill: 0
+      melee: 52
+    currentStats:
+      tu: 56
+      stamina: 51
+      health: 35
+      bravery: 50
+      reactions: 56
+      firing: 68
+      throwing: 60
+      strength: 30
+      psiStrength: 90
+      psiSkill: 0
+      melee: 52
+    rank: 1
+    gender: 0
+    look: 3
+    missions: 2
+    kills: 1
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 25
+        minute: 39
+        hour: 10
+        weekday: 4
+        day: 3
+        month: 3
+        year: 1999
+      cause:
+        type: STR_SECTOID_SOLDIER
+        rank: STR_LIVE_SOLDIER
+        race: STR_SECTOID
+        weapon: STR_HEAVY_PLASMA
+        weaponAmmo: STR_HEAVY_PLASMA_CLIP
+        status: 6
+        faction: 1
+        mission: 9
+        turn: 10
+        side: 0
+        bodypart: 1
+        id: 20
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_ONE_MONTH_SERVICE
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_WOUNDED
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+      killList:
+        - type: STR_SECTOID_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_SECTOID
+          weapon: STR_RIFLE
+          weaponAmmo: STR_RIFLE_CLIP
+          status: 6
+          faction: 1
+          mission: 3
+          turn: 909
+          side: 1
+          bodypart: 3
+          id: 1000003
+      missionIdList:
+        - 3
+        - 9
+      daysWoundedTotal: 1
+      monthsService: 2
+      shotAtCounterTotal: 1
+      hitCounterTotal: 2
+      shotsFiredCounterTotal: 9
+      shotsLandedCounterTotal: 1
+      timesWoundedTotal: 1
+      statGainTotal: 10
+  - type: STR_SOLDIER
+    id: 21
+    name: Christian Scout
+    initialStats:
+      tu: 60
+      stamina: 58
+      health: 35
+      bravery: 50
+      reactions: 40
+      firing: 42
+      throwing: 50
+      strength: 23
+      psiStrength: 11
+      psiSkill: 0
+      melee: 59
+    currentStats:
+      tu: 63
+      stamina: 61
+      health: 37
+      bravery: 50
+      reactions: 40
+      firing: 43
+      throwing: 50
+      strength: 23
+      psiStrength: 11
+      psiSkill: 0
+      melee: 59
+    rank: 1
+    gender: 0
+    look: 1
+    missions: 4
+    kills: 0
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 25
+        minute: 39
+        hour: 10
+        weekday: 4
+        day: 3
+        month: 3
+        year: 1999
+      cause:
+        type: STR_SECTOID_ENGINEER
+        rank: STR_LIVE_ENGINEER
+        race: STR_SECTOID
+        weapon: STR_PLASMA_SHOTGUN
+        weaponAmmo: STR_PLASMA_SHOTGUN_CLIP
+        status: 6
+        faction: 1
+        mission: 9
+        turn: 12
+        side: 0
+        bodypart: 1
+        id: 21
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_ONE_MONTH_SERVICE
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_TOTAL_IMPORTANT_MISSIONS
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_TOTAL_MISSION_COUNT
+          decorationLevel: 0
+      missionIdList:
+        - 3
+        - 4
+        - 5
+        - 9
+      monthsService: 2
+      shotAtCounterTotal: 1
+      hitCounterTotal: 2
+      shotsFiredCounterTotal: 7
+      shotsLandedCounterTotal: 1
+      statGainTotal: 9
+  - type: STR_SOLDIER
+    id: 30
+    name: Zafer Rifleman
+    initialStats:
+      tu: 54
+      stamina: 45
+      health: 30
+      bravery: 30
+      reactions: 50
+      firing: 66
+      throwing: 60
+      strength: 36
+      psiStrength: 55
+      psiSkill: 0
+      melee: 56
+    currentStats:
+      tu: 57
+      stamina: 50
+      health: 35
+      bravery: 30
+      reactions: 50
+      firing: 67
+      throwing: 60
+      strength: 41
+      psiStrength: 55
+      psiSkill: 0
+      melee: 56
+    rank: 1
+    gender: 0
+    look: 0
+    missions: 4
+    kills: 3
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 25
+        minute: 39
+        hour: 10
+        weekday: 4
+        day: 3
+        month: 3
+        year: 1999
+      cause:
+        type: STR_SECTOID_SOLDIER
+        rank: STR_LIVE_SOLDIER
+        race: STR_SECTOID
+        weapon: STR_PLASMA_SHOTGUN
+        weaponAmmo: STR_PLASMA_SHOTGUN_CLIP
+        status: 6
+        faction: 1
+        mission: 9
+        turn: 12
+        side: 0
+        bodypart: 1
+        id: 30
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_ONE_MONTH_SERVICE
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_BESTOFRANK
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_BESTSOLDIER
+          decorationLevel: 9
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_TOTAL_MISSION_COUNT
+          decorationLevel: 0
+      killList:
+        - type: STR_SECTOID_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_SECTOID
+          weapon: STR_RIFLE
+          weaponAmmo: STR_RIFLE_CLIP
+          status: 6
+          faction: 1
+          mission: 6
+          turn: 1818
+          side: 0
+          bodypart: 1
+          id: 1000009
+        - type: STR_SECTOID_ENGINEER
+          rank: STR_LIVE_ENGINEER
+          race: STR_SECTOID
+          weapon: STR_RIFLE
+          weaponAmmo: STR_RIFLE_CLIP
+          status: 6
+          faction: 1
+          mission: 6
+          turn: 1821
+          side: 1
+          bodypart: 3
+          id: 1000015
+        - type: STR_SECTOID_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_SECTOID
+          weapon: STR_RIFLE
+          weaponAmmo: STR_RIFLE_CLIP
+          status: 6
+          faction: 1
+          mission: 9
+          turn: 2712
+          side: 3
+          bodypart: 1
+          id: 1000007
+      missionIdList:
+        - 6
+        - 7
+        - 8
+        - 9
+      totalShotFriendlyCounter: 2
+      monthsService: 1
+      shotAtCounterTotal: 1
+      hitCounterTotal: 1
+      shotsFiredCounterTotal: 32
+      shotsLandedCounterTotal: 4
+      statGainTotal: 19
+      bestOfRank: 517
+  - type: STR_SOLDIER
+    id: 27
+    name: Marton Assault
+    initialStats:
+      tu: 54
+      stamina: 47
+      health: 28
+      bravery: 50
+      reactions: 59
+      firing: 53
+      throwing: 64
+      strength: 26
+      psiStrength: 27
+      psiSkill: 0
+      melee: 52
+    currentStats:
+      tu: 55
+      stamina: 50
+      health: 32
+      bravery: 50
+      reactions: 59
+      firing: 56
+      throwing: 64
+      strength: 26
+      psiStrength: 27
+      psiSkill: 0
+      melee: 52
+    rank: 1
+    gender: 0
+    look: 0
+    missions: 4
+    kills: 3
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 25
+        minute: 39
+        hour: 10
+        weekday: 4
+        day: 3
+        month: 3
+        year: 1999
+      cause:
+        type: STR_SECTOID_SOLDIER
+        rank: STR_LIVE_SOLDIER
+        race: STR_SECTOID
+        weapon: STR_PLASMA_SWORD
+        weaponAmmo: STR_PLASMA_SWORD
+        status: 6
+        faction: 1
+        mission: 9
+        turn: 46
+        side: 0
+        bodypart: 1
+        id: 27
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_LUCKYSHOT
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_ONE_MONTH_SERVICE
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_TOTAL_MISSION_COUNT
+          decorationLevel: 0
+      killList:
+        - type: STR_SECTOID_ENGINEER
+          rank: STR_LIVE_ENGINEER
+          race: STR_SECTOID
+          weapon: STR_RIFLE
+          weaponAmmo: STR_RIFLE_CLIP
+          status: 6
+          faction: 1
+          mission: 6
+          turn: 1821
+          side: 2
+          bodypart: 2
+          id: 1000014
+        - type: STR_SECTOID_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_SECTOID
+          weapon: STR_RIFLE
+          weaponAmmo: STR_RIFLE_CLIP
+          status: 6
+          faction: 1
+          mission: 9
+          turn: 2712
+          side: 0
+          bodypart: 1
+          id: 1000002
+        - type: STR_SECTOID_MEDIC
+          rank: STR_LIVE_MEDIC
+          race: STR_SECTOID
+          weapon: STR_RIFLE
+          weaponAmmo: STR_RIFLE_CLIP
+          status: 6
+          faction: 1
+          mission: 9
+          turn: 2745
+          side: 1
+          bodypart: 3
+          id: 1000014
+      missionIdList:
+        - 6
+        - 7
+        - 8
+        - 9
+      monthsService: 1
+      shotAtCounterTotal: 1
+      lowAccuracyHitCounterTotal: 3
+      shotsFiredCounterTotal: 43
+      shotsLandedCounterTotal: 6
+      statGainTotal: 11
+  - type: STR_SOLDIER
+    id: 19
+    name: Samuele MULE
+    initialStats:
+      tu: 51
+      stamina: 53
+      health: 27
+      bravery: 30
+      reactions: 51
+      firing: 46
+      throwing: 64
+      strength: 31
+      psiStrength: 0
+      psiSkill: 0
+      melee: 49
+    currentStats:
+      tu: 51
+      stamina: 53
+      health: 27
+      bravery: 30
+      reactions: 51
+      firing: 46
+      throwing: 66
+      strength: 31
+      psiStrength: 0
+      psiSkill: 0
+      melee: 49
+    rank: 0
+    gender: 0
+    look: 1
+    missions: 7
+    kills: 0
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 25
+        minute: 39
+        hour: 10
+        weekday: 4
+        day: 3
+        month: 3
+        year: 1999
+      cause:
+        type: STR_SECTOID_NAVIGATOR
+        rank: STR_LIVE_NAVIGATOR
+        race: STR_SECTOID
+        weapon: STR_PLASMA_RIFLE
+        weaponAmmo: STR_PLASMA_RIFLE_CLIP
+        status: 6
+        faction: 1
+        mission: 9
+        turn: 46
+        side: 2
+        bodypart: 2
+        id: 19
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_ONE_MONTH_SERVICE
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_TOTAL_IMPORTANT_MISSIONS
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_TOTAL_MISSION_COUNT
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+      missionIdList:
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+      monthsService: 2
+      shotAtCounterTotal: 1
+      hitCounterTotal: 1
+      statGainTotal: 2
+  - type: STR_SOLDIER
+    id: 23
+    name: Marek Heavy
+    initialStats:
+      tu: 52
+      stamina: 44
+      health: 35
+      bravery: 30
+      reactions: 48
+      firing: 67
+      throwing: 71
+      strength: 34
+      psiStrength: 34
+      psiSkill: 0
+      melee: 46
+    currentStats:
+      tu: 54
+      stamina: 44
+      health: 35
+      bravery: 30
+      reactions: 48
+      firing: 68
+      throwing: 71
+      strength: 34
+      psiStrength: 34
+      psiSkill: 0
+      melee: 46
+    rank: 1
+    gender: 0
+    look: 1
+    missions: 4
+    kills: 2
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 25
+        minute: 39
+        hour: 10
+        weekday: 4
+        day: 3
+        month: 3
+        year: 1999
+      cause:
+        type: STR_SECTOID_NAVIGATOR
+        rank: STR_LIVE_NAVIGATOR
+        race: STR_SECTOID
+        weapon: STR_PLASMA_RIFLE
+        weaponAmmo: STR_PLASMA_RIFLE_CLIP
+        status: 6
+        faction: 1
+        mission: 9
+        turn: 52
+        side: 2
+        bodypart: 2
+        id: 23
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_ONE_MONTH_SERVICE
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_TOTAL_IMPORTANT_MISSIONS
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_TOTAL_MISSION_COUNT
+          decorationLevel: 0
+      killList:
+        - type: STR_SECTOID_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_SECTOID
+          weapon: STR_ROCKET_LAUNCHER
+          weaponAmmo: STR_SMALL_ROCKET
+          status: 6
+          faction: 1
+          mission: 4
+          turn: 1221
+          side: 1
+          bodypart: 5
+          id: 1000008
+        - type: STR_SECTOID_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_SECTOID
+          weapon: STR_ROCKET_LAUNCHER
+          weaponAmmo: STR_LARGE_ROCKET
+          status: 6
+          faction: 1
+          mission: 9
+          turn: 2736
+          side: 2
+          bodypart: 2
+          id: 1000000
+      missionIdList:
+        - 3
+        - 4
+        - 5
+        - 9
+      monthsService: 2
+      shotAtCounterTotal: 3
+      hitCounterTotal: 2
+      shotsFiredCounterTotal: 6
+      statGainTotal: 3
+  - type: STR_SOLDIER
+    id: 42
+    name: Johanne Recon
+    initialStats:
+      tu: 51
+      stamina: 63
+      health: 30
+      bravery: 40
+      reactions: 39
+      firing: 51
+      throwing: 59
+      strength: 36
+      psiStrength: 97
+      psiSkill: 0
+      melee: 44
+    currentStats:
+      tu: 51
+      stamina: 63
+      health: 30
+      bravery: 40
+      reactions: 39
+      firing: 51
+      throwing: 59
+      strength: 36
+      psiStrength: 97
+      psiSkill: 0
+      melee: 44
+    rank: 0
+    gender: 1
+    look: 0
+    missions: 1
+    kills: 0
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 35
+        minute: 44
+        hour: 15
+        weekday: 3
+        day: 9
+        month: 3
+        year: 1999
+      cause:
+        type: STR_FLOATER_MEDIC
+        rank: STR_LIVE_MEDIC
+        race: STR_FLOATER
+        weapon: STR_PLASMA_RIFLE
+        weaponAmmo: STR_PLASMA_RIFLE_CLIP
+        status: 6
+        faction: 1
+        mission: 10
+        turn: 6
+        side: 1
+        bodypart: 3
+        id: 42
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+      missionIdList:
+        - 10
+      shotAtCounterTotal: 1
+      hitCounterTotal: 1
+  - type: STR_SOLDIER
+    id: 40
+    name: Guada Point
+    initialStats:
+      tu: 53
+      stamina: 59
+      health: 27
+      bravery: 50
+      reactions: 49
+      firing: 43
+      throwing: 64
+      strength: 29
+      psiStrength: 89
+      psiSkill: 0
+      melee: 59
+    currentStats:
+      tu: 53
+      stamina: 59
+      health: 27
+      bravery: 50
+      reactions: 49
+      firing: 43
+      throwing: 64
+      strength: 29
+      psiStrength: 89
+      psiSkill: 0
+      melee: 59
+    rank: 0
+    gender: 1
+    look: 3
+    missions: 1
+    kills: 1
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 35
+        minute: 44
+        hour: 15
+        weekday: 3
+        day: 9
+        month: 3
+        year: 1999
+      cause:
+        type: STR_FLOATER_SOLDIER
+        rank: STR_LIVE_SOLDIER
+        race: STR_FLOATER
+        weapon: STR_PLASMA_PISTOL
+        weaponAmmo: STR_PLASMA_PISTOL_CLIP
+        status: 6
+        faction: 1
+        mission: 10
+        turn: 30
+        side: 2
+        bodypart: 2
+        id: 40
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+      killList:
+        - type: STR_FLOATER_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_FLOATER
+          weapon: STR_RIFLE
+          weaponAmmo: STR_RIFLE_AA_CLIP
+          status: 6
+          faction: 1
+          mission: 10
+          turn: 3006
+          side: 0
+          bodypart: 1
+          id: 1000010
+      missionIdList:
+        - 10
+      unconciousTotal: 1
+      shotAtCounterTotal: 1
+      hitCounterTotal: 1
+      shotsFiredCounterTotal: 4
+      shotsLandedCounterTotal: 1
+  - type: STR_SOLDIER
+    id: 37
+    name: Salvador Assault
+    initialStats:
+      tu: 54
+      stamina: 55
+      health: 27
+      bravery: 50
+      reactions: 35
+      firing: 67
+      throwing: 66
+      strength: 30
+      psiStrength: 61
+      psiSkill: 0
+      melee: 60
+    currentStats:
+      tu: 54
+      stamina: 55
+      health: 27
+      bravery: 50
+      reactions: 35
+      firing: 67
+      throwing: 66
+      strength: 30
+      psiStrength: 61
+      psiSkill: 0
+      melee: 60
+    rank: 0
+    gender: 0
+    look: 1
+    missions: 1
+    kills: 2
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 35
+        minute: 44
+        hour: 15
+        weekday: 3
+        day: 9
+        month: 3
+        year: 1999
+      cause:
+        type: STR_FLOATER_SOLDIER
+        rank: STR_LIVE_SOLDIER
+        race: STR_FLOATER
+        weapon: STR_PLASMA_SHOTGUN
+        weaponAmmo: STR_PLASMA_SHOTGUN_CLIP
+        status: 6
+        faction: 1
+        mission: 10
+        turn: 34
+        side: 0
+        bodypart: 1
+        id: 37
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+      killList:
+        - type: STR_FLOATER_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_FLOATER
+          weapon: STR_RIFLE
+          weaponAmmo: STR_RIFLE_CLIP
+          status: 6
+          faction: 1
+          mission: 10
+          turn: 3018
+          side: 0
+          bodypart: 1
+          id: 1000005
+        - type: STR_FLOATER_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_FLOATER
+          weapon: STR_RIFLE
+          weaponAmmo: STR_RIFLE_CLIP
+          status: 6
+          faction: 1
+          mission: 10
+          turn: 3024
+          side: 1
+          bodypart: 3
+          id: 1000004
+      missionIdList:
+        - 10
+      shotAtCounterTotal: 4
+      hitCounterTotal: 2
+      lowAccuracyHitCounterTotal: 1
+      shotsFiredCounterTotal: 16
+      shotsLandedCounterTotal: 4
+  - type: STR_SOLDIER
+    id: 41
+    name: Tasayco Point
+    initialStats:
+      tu: 58
+      stamina: 57
+      health: 35
+      bravery: 10
+      reactions: 56
+      firing: 47
+      throwing: 71
+      strength: 39
+      psiStrength: 70
+      psiSkill: 0
+      melee: 56
+    currentStats:
+      tu: 58
+      stamina: 57
+      health: 35
+      bravery: 10
+      reactions: 56
+      firing: 47
+      throwing: 71
+      strength: 39
+      psiStrength: 70
+      psiSkill: 0
+      melee: 56
+    rank: 0
+    gender: 1
+    look: 0
+    missions: 1
+    kills: 3
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 35
+        minute: 44
+        hour: 15
+        weekday: 3
+        day: 9
+        month: 3
+        year: 1999
+      cause:
+        type: STR_FLOATER_SOLDIER
+        rank: STR_LIVE_SOLDIER
+        race: STR_FLOATER
+        weapon: STR_HEAVY_PLASMA
+        weaponAmmo: STR_HEAVY_PLASMA_CLIP
+        status: 6
+        faction: 1
+        mission: 10
+        turn: 57
+        side: 0
+        bodypart: 1
+        id: 41
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_DOUBLEKILL
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_IMPORTANT_ALIENS_KNOCKED_OUT
+          decorationLevel: 9
+      killList:
+        - type: STR_FLOATER_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_FLOATER
+          weapon: STR_RIFLE
+          weaponAmmo: STR_RIFLE_CLIP
+          status: 7
+          faction: 1
+          mission: 10
+          turn: 3012
+          side: 0
+          bodypart: 0
+          id: 1000014
+        - type: STR_FLOATER_MEDIC
+          rank: STR_LIVE_MEDIC
+          race: STR_FLOATER
+          weapon: STR_RIFLE
+          weaponAmmo: STR_RIFLE_CLIP
+          status: 6
+          faction: 1
+          mission: 10
+          turn: 3018
+          side: 1
+          bodypart: 3
+          id: 1000017
+        - type: STR_FLOATER_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_FLOATER
+          weapon: STR_RIFLE
+          weaponAmmo: STR_RIFLE_CLIP
+          status: 6
+          faction: 1
+          mission: 10
+          turn: 3031
+          side: 0
+          bodypart: 0
+          id: 1000014
+        - type: STR_FLOATER_ENGINEER
+          rank: STR_LIVE_ENGINEER
+          race: STR_FLOATER
+          weapon: STR_RIFLE
+          weaponAmmo: STR_RIFLE_CLIP
+          status: 7
+          faction: 1
+          mission: 10
+          turn: 3045
+          side: 3
+          bodypart: 1
+          id: 1000020
+        - type: STR_FLOATER_ENGINEER
+          rank: STR_LIVE_ENGINEER
+          race: STR_FLOATER
+          weapon: STR_GRENADE
+          weaponAmmo: STR_GRENADE
+          status: 6
+          faction: 1
+          mission: 10
+          turn: 3045
+          side: 3
+          bodypart: 1
+          id: 1000020
+      missionIdList:
+        - 10
+      shotAtCounterTotal: 2
+      hitCounterTotal: 1
+      shotsFiredCounterTotal: 12
+      shotsLandedCounterTotal: 3
+  - type: STR_SOLDIER
+    id: 33
+    name: Nick Assault
+    initialStats:
+      tu: 52
+      stamina: 59
+      health: 29
+      bravery: 30
+      reactions: 33
+      firing: 67
+      throwing: 63
+      strength: 32
+      psiStrength: 9
+      psiSkill: 0
+      melee: 53
+    currentStats:
+      tu: 52
+      stamina: 59
+      health: 29
+      bravery: 30
+      reactions: 33
+      firing: 67
+      throwing: 63
+      strength: 32
+      psiStrength: 9
+      psiSkill: 0
+      melee: 53
+    rank: 0
+    gender: 0
+    look: 1
+    missions: 1
+    kills: 0
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 35
+        minute: 44
+        hour: 15
+        weekday: 3
+        day: 9
+        month: 3
+        year: 1999
+      cause:
+        type: STR_FLOATER_SOLDIER
+        rank: STR_LIVE_SOLDIER
+        race: STR_FLOATER
+        weapon: STR_HEAVY_PLASMA
+        weaponAmmo: STR_HEAVY_PLASMA_CLIP
+        status: 6
+        faction: 1
+        mission: 10
+        turn: 58
+        side: 0
+        bodypart: 1
+        id: 33
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+      missionIdList:
+        - 10
+      shotAtCounterTotal: 1
+      hitCounterTotal: 1
+      shotsFiredCounterTotal: 1
+  - type: STR_SOLDIER
+    id: 38
+    name: Sebastien Rifleman
+    initialStats:
+      tu: 55
+      stamina: 47
+      health: 36
+      bravery: 30
+      reactions: 34
+      firing: 64
+      throwing: 61
+      strength: 22
+      psiStrength: 34
+      psiSkill: 0
+      melee: 47
+    currentStats:
+      tu: 55
+      stamina: 47
+      health: 36
+      bravery: 30
+      reactions: 34
+      firing: 64
+      throwing: 61
+      strength: 22
+      psiStrength: 34
+      psiSkill: 0
+      melee: 47
+    rank: 0
+    gender: 0
+    look: 1
+    missions: 1
+    kills: 1
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 35
+        minute: 44
+        hour: 15
+        weekday: 3
+        day: 9
+        month: 3
+        year: 1999
+      cause:
+        type: STR_FLOATER_NAVIGATOR
+        rank: STR_LIVE_NAVIGATOR
+        race: STR_FLOATER
+        weapon: STR_PLASMA_SNIPER_RIFLE
+        weaponAmmo: STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+        status: 6
+        faction: 1
+        mission: 10
+        turn: 67
+        side: 0
+        bodypart: 1
+        id: 38
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+      killList:
+        - type: STR_FLOATER_ENGINEER
+          rank: STR_LIVE_ENGINEER
+          race: STR_FLOATER
+          weapon: STR_RIFLE
+          weaponAmmo: STR_RIFLE_CLIP
+          status: 6
+          faction: 1
+          mission: 10
+          turn: 3030
+          side: 0
+          bodypart: 1
+          id: 1000019
+      missionIdList:
+        - 10
+      shotAtCounterTotal: 2
+      hitCounterTotal: 2
+      shotsFiredCounterTotal: 4
+      shotsLandedCounterTotal: 1
+  - type: STR_SOLDIER
+    id: 35
+    name: Viktoriya Assault
+    initialStats:
+      tu: 50
+      stamina: 66
+      health: 29
+      bravery: 60
+      reactions: 58
+      firing: 67
+      throwing: 56
+      strength: 36
+      psiStrength: 11
+      psiSkill: 0
+      melee: 58
+    currentStats:
+      tu: 50
+      stamina: 66
+      health: 29
+      bravery: 60
+      reactions: 58
+      firing: 67
+      throwing: 56
+      strength: 36
+      psiStrength: 11
+      psiSkill: 0
+      melee: 58
+    rank: 0
+    gender: 1
+    look: 0
+    missions: 1
+    kills: 3
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 35
+        minute: 44
+        hour: 15
+        weekday: 3
+        day: 9
+        month: 3
+        year: 1999
+      cause:
+        type: STR_FLOATER_LEADER
+        rank: STR_LIVE_LEADER
+        race: STR_FLOATER
+        weapon: STR_PLASMA_RIFLE
+        weaponAmmo: STR_PLASMA_RIFLE_CLIP
+        status: 6
+        faction: 1
+        mission: 10
+        turn: 76
+        side: 0
+        bodypart: 1
+        id: 35
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+      killList:
+        - type: STR_FLOATER_NAVIGATOR
+          rank: STR_LIVE_NAVIGATOR
+          race: STR_FLOATER
+          weapon: STR_RIFLE
+          weaponAmmo: STR_RIFLE_CLIP
+          status: 6
+          faction: 1
+          mission: 10
+          turn: 3018
+          side: 1
+          bodypart: 3
+          id: 1000016
+        - type: STR_FLOATER_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_FLOATER
+          weapon: STR_RIFLE
+          weaponAmmo: STR_RIFLE_CLIP
+          status: 6
+          faction: 1
+          mission: 10
+          turn: 3021
+          side: 1
+          bodypart: 3
+          id: 1000008
+        - type: STR_FLOATER_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_FLOATER
+          weapon: STR_RIFLE
+          weaponAmmo: STR_RIFLE_CLIP
+          status: 6
+          faction: 1
+          mission: 10
+          turn: 3027
+          side: 0
+          bodypart: 1
+          id: 1000006
+      missionIdList:
+        - 10
+      shotAtCounterTotal: 2
+      hitCounterTotal: 1
+      lowAccuracyHitCounterTotal: 2
+      shotsFiredCounterTotal: 20
+      shotsLandedCounterTotal: 5
+  - type: STR_SOLDIER
+    id: 47
+    name: Maria Rifleman
+    initialStats:
+      tu: 60
+      stamina: 53
+      health: 37
+      bravery: 30
+      reactions: 46
+      firing: 69
+      throwing: 67
+      strength: 28
+      psiStrength: 61
+      psiSkill: 0
+      melee: 45
+    currentStats:
+      tu: 60
+      stamina: 53
+      health: 37
+      bravery: 30
+      reactions: 46
+      firing: 69
+      throwing: 67
+      strength: 28
+      psiStrength: 61
+      psiSkill: 0
+      melee: 45
+    rank: 0
+    gender: 1
+    look: 0
+    missions: 2
+    kills: 0
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 15
+        minute: 40
+        hour: 13
+        weekday: 2
+        day: 22
+        month: 3
+        year: 1999
+      cause:
+        type: STR_SECTOID_SOLDIER
+        rank: STR_LIVE_SOLDIER
+        race: STR_SECTOID
+        weapon: STR_PLASMA_RIFLE
+        weaponAmmo: STR_PLASMA_RIFLE_CLIP
+        status: 6
+        faction: 1
+        mission: 12
+        turn: 12
+        side: 0
+        bodypart: 1
+        id: 47
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+      missionIdList:
+        - 11
+        - 12
+      shotAtCounterTotal: 1
+      hitCounterTotal: 1
+      shotsFiredCounterTotal: 3
+  - type: STR_SOLDIER
+    id: 45
+    name: Shy Point
+    initialStats:
+      tu: 60
+      stamina: 70
+      health: 29
+      bravery: 10
+      reactions: 52
+      firing: 54
+      throwing: 54
+      strength: 34
+      psiStrength: 61
+      psiSkill: 0
+      melee: 55
+    currentStats:
+      tu: 60
+      stamina: 70
+      health: 29
+      bravery: 10
+      reactions: 52
+      firing: 54
+      throwing: 54
+      strength: 34
+      psiStrength: 61
+      psiSkill: 0
+      melee: 55
+    rank: 0
+    gender: 1
+    look: 2
+    missions: 2
+    kills: 0
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 15
+        minute: 40
+        hour: 13
+        weekday: 2
+        day: 22
+        month: 3
+        year: 1999
+      cause:
+        type: STR_SECTOID_SOLDIER
+        rank: STR_LIVE_SOLDIER
+        race: STR_SECTOID
+        weapon: STR_PLASMA_SNIPER_RIFLE
+        weaponAmmo: STR_PLASMA_SNIPER_RIFLE_CLIP
+        status: 6
+        faction: 1
+        mission: 12
+        turn: 19
+        side: 0
+        bodypart: 1
+        id: 45
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+      missionIdList:
+        - 11
+        - 12
+      shotAtCounterTotal: 1
+      hitCounterTotal: 1
+  - type: STR_SOLDIER
+    id: 48
+    name: Temel Point
+    initialStats:
+      tu: 56
+      stamina: 57
+      health: 27
+      bravery: 20
+      reactions: 60
+      firing: 64
+      throwing: 71
+      strength: 29
+      psiStrength: 18
+      psiSkill: 0
+      melee: 45
+    currentStats:
+      tu: 57
+      stamina: 58
+      health: 28
+      bravery: 20
+      reactions: 61
+      firing: 65
+      throwing: 71
+      strength: 34
+      psiStrength: 18
+      psiSkill: 0
+      melee: 45
+    rank: 1
+    gender: 0
+    look: 2
+    missions: 2
+    kills: 2
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 15
+        minute: 40
+        hour: 13
+        weekday: 2
+        day: 22
+        month: 3
+        year: 1999
+      cause:
+        type: STR_SECTOID_NAVIGATOR
+        rank: STR_LIVE_NAVIGATOR
+        race: STR_SECTOID
+        weapon: STR_PLASMA_SHOTGUN
+        weaponAmmo: STR_PLASMA_SHOTGUN_CLIP
+        status: 6
+        faction: 1
+        mission: 12
+        turn: 22
+        side: 2
+        bodypart: 2
+        id: 48
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_BESTOFRANK
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_BESTSOLDIER
+          decorationLevel: 9
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+      killList:
+        - type: STR_SECTOID_MEDIC
+          rank: STR_LIVE_MEDIC
+          race: STR_SECTOID
+          weapon: STR_RIFLE
+          weaponAmmo: STR_RIFLE_AA_CLIP
+          status: 6
+          faction: 1
+          mission: 11
+          turn: 3304
+          side: 1
+          bodypart: 3
+          id: 1000026
+        - type: STR_SECTOID_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_SECTOID
+          weapon: STR_RIFLE
+          weaponAmmo: STR_RIFLE_AA_CLIP
+          status: 6
+          faction: 1
+          mission: 12
+          turn: 3609
+          side: 2
+          bodypart: 2
+          id: 1000000
+      missionIdList:
+        - 11
+        - 12
+      shotAtCounterTotal: 1
+      hitCounterTotal: 3
+      shotsFiredCounterTotal: 13
+      shotsLandedCounterTotal: 3
+      statGainTotal: 10
+      bestOfRank: 517
+      bestSoldier: 517
+  - type: STR_SOLDIER
+    id: 51
+    name: Apostol Rifleman
+    initialStats:
+      tu: 51
+      stamina: 54
+      health: 39
+      bravery: 30
+      reactions: 45
+      firing: 68
+      throwing: 58
+      strength: 23
+      psiStrength: 68
+      psiSkill: 0
+      melee: 45
+    currentStats:
+      tu: 51
+      stamina: 54
+      health: 39
+      bravery: 30
+      reactions: 45
+      firing: 68
+      throwing: 58
+      strength: 23
+      psiStrength: 68
+      psiSkill: 0
+      melee: 45
+    rank: 0
+    gender: 0
+    look: 1
+    missions: 2
+    kills: 0
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 15
+        minute: 40
+        hour: 13
+        weekday: 2
+        day: 22
+        month: 3
+        year: 1999
+      cause:
+        type: STR_SECTOID_NAVIGATOR
+        rank: STR_LIVE_NAVIGATOR
+        race: STR_SECTOID
+        weapon: STR_PLASMA_SHOTGUN
+        weaponAmmo: STR_PLASMA_SHOTGUN_CLIP
+        status: 6
+        faction: 1
+        mission: 12
+        turn: 30
+        side: 3
+        bodypart: 1
+        id: 51
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+      missionIdList:
+        - 11
+        - 12
+      shotAtCounterTotal: 1
+      hitCounterTotal: 1
+  - type: STR_SOLDIER
+    id: 43
+    name: Andreas Assault
+    initialStats:
+      tu: 57
+      stamina: 51
+      health: 37
+      bravery: 30
+      reactions: 56
+      firing: 68
+      throwing: 68
+      strength: 31
+      psiStrength: 22
+      psiSkill: 0
+      melee: 48
+    currentStats:
+      tu: 57
+      stamina: 51
+      health: 37
+      bravery: 30
+      reactions: 56
+      firing: 68
+      throwing: 68
+      strength: 31
+      psiStrength: 22
+      psiSkill: 0
+      melee: 48
+    rank: 0
+    gender: 0
+    look: 0
+    missions: 2
+    kills: 0
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 15
+        minute: 40
+        hour: 13
+        weekday: 2
+        day: 22
+        month: 3
+        year: 1999
+      cause:
+        type: STR_SECTOID_NAVIGATOR
+        rank: STR_LIVE_NAVIGATOR
+        race: STR_SECTOID
+        weapon: STR_PLASMA_SHOTGUN
+        weaponAmmo: STR_PLASMA_SHOTGUN_CLIP
+        status: 6
+        faction: 1
+        mission: 12
+        turn: 34
+        side: 3
+        bodypart: 1
+        id: 43
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+      missionIdList:
+        - 11
+        - 12
+      shotAtCounterTotal: 2
+      hitCounterTotal: 1
+      shotsFiredCounterTotal: 3
+  - type: STR_SOLDIER
+    id: 49
+    name: Ghassan Recon
+    initialStats:
+      tu: 60
+      stamina: 59
+      health: 39
+      bravery: 20
+      reactions: 50
+      firing: 60
+      throwing: 62
+      strength: 33
+      psiStrength: 86
+      psiSkill: 0
+      melee: 59
+    currentStats:
+      tu: 60
+      stamina: 59
+      health: 39
+      bravery: 20
+      reactions: 50
+      firing: 60
+      throwing: 62
+      strength: 33
+      psiStrength: 86
+      psiSkill: 0
+      melee: 59
+    rank: 0
+    gender: 0
+    look: 2
+    missions: 2
+    kills: 0
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 15
+        minute: 40
+        hour: 13
+        weekday: 2
+        day: 22
+        month: 3
+        year: 1999
+      cause:
+        type: STR_SECTOID_ENGINEER
+        rank: STR_LIVE_ENGINEER
+        race: STR_SECTOID
+        weapon: STR_SMALL_LAUNCHER
+        weaponAmmo: STR_ELERIUM_BOMB
+        status: 6
+        faction: 1
+        mission: 12
+        turn: 34
+        side: 4
+        bodypart: 1
+        id: 49
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+      missionIdList:
+        - 11
+        - 12
+      shotAtCounterTotal: 1
+      hitCounterTotal: 1
+  - type: STR_SOLDIER
+    id: 18
+    name: Jef Rifleman
+    initialStats:
+      tu: 60
+      stamina: 44
+      health: 29
+      bravery: 20
+      reactions: 35
+      firing: 66
+      throwing: 51
+      strength: 27
+      psiStrength: 43
+      psiSkill: 0
+      melee: 40
+    currentStats:
+      tu: 60
+      stamina: 44
+      health: 29
+      bravery: 20
+      reactions: 35
+      firing: 66
+      throwing: 51
+      strength: 27
+      psiStrength: 43
+      psiSkill: 0
+      melee: 40
+    rank: 0
+    gender: 0
+    look: 0
+    missions: 3
+    kills: 2
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 15
+        minute: 40
+        hour: 13
+        weekday: 2
+        day: 22
+        month: 3
+        year: 1999
+      cause:
+        type: STR_SECTOID_NAVIGATOR
+        rank: STR_LIVE_NAVIGATOR
+        race: STR_SECTOID
+        weapon: STR_PLASMA_SHOTGUN
+        weaponAmmo: STR_PLASMA_SHOTGUN_CLIP
+        status: 6
+        faction: 1
+        mission: 12
+        turn: 34
+        side: 0
+        bodypart: 1
+        id: 18
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_ONE_MONTH_SERVICE
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_WOUNDED
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+      killList:
+        - type: STR_SECTOID_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_SECTOID
+          weapon: STR_RIFLE
+          weaponAmmo: STR_RIFLE_AA_CLIP
+          status: 6
+          faction: 1
+          mission: 12
+          turn: 3606
+          side: 0
+          bodypart: 1
+          id: 1000003
+        - type: STR_SECTOID_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_SECTOID
+          weapon: STR_RIFLE
+          weaponAmmo: STR_RIFLE_AA_CLIP
+          status: 6
+          faction: 1
+          mission: 12
+          turn: 3612
+          side: 0
+          bodypart: 5
+          id: 1000001
+      missionIdList:
+        - 3
+        - 11
+        - 12
+      daysWoundedTotal: 25
+      monthsService: 2
+      unconciousTotal: 1
+      shotAtCounterTotal: 2
+      hitCounterTotal: 2
+      lowAccuracyHitCounterTotal: 2
+      shotsFiredCounterTotal: 14
+      shotsLandedCounterTotal: 3
+      timesWoundedTotal: 1
+  - type: STR_SOLDIER
+    id: 46
+    name: Lester Rifleman
+    initialStats:
+      tu: 60
+      stamina: 57
+      health: 26
+      bravery: 50
+      reactions: 30
+      firing: 68
+      throwing: 64
+      strength: 28
+      psiStrength: 85
+      psiSkill: 0
+      melee: 53
+    currentStats:
+      tu: 60
+      stamina: 57
+      health: 26
+      bravery: 50
+      reactions: 30
+      firing: 68
+      throwing: 64
+      strength: 28
+      psiStrength: 85
+      psiSkill: 0
+      melee: 53
+    rank: 0
+    gender: 0
+    look: 2
+    missions: 2
+    kills: 2
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 15
+        minute: 40
+        hour: 13
+        weekday: 2
+        day: 22
+        month: 3
+        year: 1999
+      cause:
+        type: STR_SECTOID_NAVIGATOR
+        rank: STR_LIVE_NAVIGATOR
+        race: STR_SECTOID
+        weapon: STR_PLASMA_SHOTGUN
+        weaponAmmo: STR_PLASMA_SHOTGUN_CLIP
+        status: 6
+        faction: 1
+        mission: 12
+        turn: 37
+        side: 0
+        bodypart: 1
+        id: 46
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+      killList:
+        - type: STR_SECTOID_ENGINEER
+          rank: STR_LIVE_ENGINEER
+          race: STR_SECTOID
+          weapon: STR_RIFLE
+          weaponAmmo: STR_RIFLE_AA_CLIP
+          status: 6
+          faction: 1
+          mission: 12
+          turn: 3612
+          side: 0
+          bodypart: 1
+          id: 1000012
+        - type: STR_SECTOID_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_SECTOID
+          weapon: STR_RIFLE
+          weaponAmmo: STR_RIFLE_AA_CLIP
+          status: 6
+          faction: 1
+          mission: 12
+          turn: 3636
+          side: 2
+          bodypart: 2
+          id: 1000007
+      missionIdList:
+        - 11
+        - 12
+      shotAtCounterTotal: 1
+      hitCounterTotal: 4
+      lowAccuracyHitCounterTotal: 1
+      shotsFiredCounterTotal: 6
+      shotsLandedCounterTotal: 3
+  - type: STR_SOLDIER
+    id: 54
+    name: Furkan Medic
+    initialStats:
+      tu: 54
+      stamina: 42
+      health: 32
+      bravery: 30
+      reactions: 43
+      firing: 44
+      throwing: 67
+      strength: 20
+      psiStrength: 15
+      psiSkill: 0
+      melee: 57
+    currentStats:
+      tu: 54
+      stamina: 42
+      health: 32
+      bravery: 30
+      reactions: 43
+      firing: 44
+      throwing: 67
+      strength: 20
+      psiStrength: 15
+      psiSkill: 0
+      melee: 57
+    rank: 0
+    gender: 0
+    look: 1
+    missions: 2
+    kills: 0
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 15
+        minute: 40
+        hour: 13
+        weekday: 2
+        day: 22
+        month: 3
+        year: 1999
+      cause:
+        type: STR_SECTOID_NAVIGATOR
+        rank: STR_LIVE_NAVIGATOR
+        race: STR_SECTOID
+        weapon: STR_PLASMA_SHOTGUN
+        weaponAmmo: STR_PLASMA_SHOTGUN_CLIP
+        status: 6
+        faction: 1
+        mission: 12
+        turn: 55
+        side: 2
+        bodypart: 0
+        id: 54
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+      missionIdList:
+        - 11
+        - 12
+      shotAtCounterTotal: 1
+      hitCounterTotal: 2
+  - type: STR_SOLDIER
+    id: 50
+    name: Joona Rifleman
+    initialStats:
+      tu: 53
+      stamina: 68
+      health: 40
+      bravery: 30
+      reactions: 53
+      firing: 48
+      throwing: 70
+      strength: 23
+      psiStrength: 8
+      psiSkill: 0
+      melee: 44
+    currentStats:
+      tu: 53
+      stamina: 68
+      health: 40
+      bravery: 30
+      reactions: 53
+      firing: 48
+      throwing: 70
+      strength: 23
+      psiStrength: 8
+      psiSkill: 0
+      melee: 44
+    rank: 0
+    gender: 0
+    look: 3
+    missions: 2
+    kills: 1
+    armor: STR_ARMORED_VEST_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        second: 15
+        minute: 40
+        hour: 13
+        weekday: 2
+        day: 22
+        month: 3
+        year: 1999
+      cause:
+        name: Joona Rifleman
+        rank: STR_ROOKIE
+        race: STR_FRIENDLY
+        weapon: STR_WEAPON_UNKNOWN
+        weaponAmmo: STR_WEAPON_UNKNOWN
+        status: 6
+        faction: 0
+        mission: 12
+        turn: 57
+        side: 0
+        bodypart: 1
+        id: 50
+    diary:
+      commendations:
+        - commendationName: STR_MEDAL_FALLEN
+          decorationLevel: 0
+        - commendationName: STR_MEDAL_TRAP
+          decorationLevel: 0
+      killList:
+        - type: STR_SECTOID_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_SECTOID
+          weapon: STR_GRENADE
+          weaponAmmo: STR_GRENADE
+          status: 7
+          faction: 1
+          mission: 12
+          turn: 3627
+          side: 0
+          bodypart: 1
+          id: 1000005
+        - type: STR_SECTOID_SOLDIER
+          rank: STR_LIVE_SOLDIER
+          race: STR_SECTOID
+          weapon: ""
+          weaponAmmo: ""
+          status: 6
+          faction: 1
+          mission: 12
+          turn: 3634
+          side: 0
+          bodypart: 1
+          id: 1000005
+      missionIdList:
+        - 11
+        - 12
+      unconciousTotal: 1
+missionStatistics:
+  - id: 0
+    markerName: STR_CRASH_SITE_
+    markerId: 1
+    time:
+      second: 15
+      minute: 19
+      hour: 10
+      weekday: 4
+      day: 13
+      month: 1
+      year: 1999
+    region: STR_EUROPE
+    country: STR_UNKNOWN
+    type: STR_UFO_CRASH_RECOVERY
+    ufo: STR_EXCAVATOR
+    success: true
+    score: 207
+    rating: STR_RATING_GOOD
+    alienRace: STR_FLOATER
+    daylight: 0
+    injuryList:
+      1: 0
+      2: 0
+      3: 0
+      4: 0
+      5: 0
+      6: 0
+      7: 0
+      8: 0
+      9: 0
+    lootValue: 1
+  - id: 1
+    markerName: STR_TERROR_SITE
+    markerId: 1
+    time:
+      second: 50
+      minute: 1
+      hour: 13
+      weekday: 2
+      day: 18
+      month: 1
+      year: 1999
+    region: STR_CENTRAL_ASIA
+    country: STR_UNKNOWN
+    type: STR_TERROR_MISSION_INDUSTRIAL
+    ufo: NO_UFO
+    success: false
+    score: -800
+    rating: STR_RATING_TERRIBLE
+    alienRace: STR_FLOATER
+    daylight: 0
+    injuryList:
+      2: 0
+      3: 0
+      4: 0
+      5: 0
+      6: 0
+      7: 0
+      8: 0
+      11: 0
+      12: 0
+      13: 0
+      14: 0
+      15: 0
+      16: 0
+      17: 0
+    lootValue: 1
+  - id: 2
+    markerName: STR_LANDING_SITE_
+    markerId: 6
+    time:
+      second: 40
+      minute: 42
+      hour: 6
+      weekday: 1
+      day: 24
+      month: 1
+      year: 1999
+    region: STR_EUROPE
+    country: STR_UNKNOWN
+    type: STR_UFO_GROUND_ASSAULT
+    ufo: STR_SUPPLY_SHIP
+    success: true
+    score: 288
+    rating: STR_RATING_GOOD
+    alienRace: STR_FLOATER
+    daylight: 0
+    injuryList:
+      2: 0
+      3: 0
+      4: 0
+      5: 0
+      6: 0
+      7: 0
+      8: 0
+      11: 0
+      12: 0
+      13: 0
+      14: 0
+      15: 0
+      16: 0
+      17: 0
+    lootValue: 1
+  - id: 3
+    markerName: STR_LANDING_SITE_
+    markerId: 9
+    time:
+      second: 15
+      minute: 46
+      hour: 12
+      weekday: 4
+      day: 10
+      month: 2
+      year: 1999
+    region: STR_EUROPE
+    country: STR_UNKNOWN
+    type: STR_UFO_GROUND_ASSAULT
+    ufo: STR_MEDIUM_SCOUT
+    success: true
+    score: 183
+    rating: STR_RATING_OK
+    alienRace: STR_SECTOID
+    daylight: 0
+    injuryList:
+      2: 0
+      5: 0
+      8: 3
+      10: 0
+      12: 0
+      15: 0
+      16: 0
+      17: 0
+      18: 25
+      19: 0
+      20: 1
+      21: 0
+      23: 0
+    lootValue: 1
+  - id: 4
+    markerName: STR_LANDING_SITE_
+    markerId: 10
+    time:
+      second: 35
+      minute: 46
+      hour: 7
+      weekday: 7
+      day: 13
+      month: 2
+      year: 1999
+    region: STR_EUROPE
+    country: STR_UK
+    type: STR_UFO_GROUND_ASSAULT
+    ufo: STR_FIGHTER_SHIP
+    success: true
+    score: 150
+    rating: STR_RATING_OK
+    alienRace: STR_SECTOID
+    daylight: 0
+    injuryList:
+      2: 0
+      12: 0
+      16: 0
+      19: 0
+      21: 0
+      22: 0
+      23: 0
+      24: 0
+      25: 0
+    lootValue: 1
+  - id: 5
+    markerName: STR_TERROR_SITE
+    markerId: 2
+    time:
+      second: 15
+      minute: 3
+      hour: 19
+      weekday: 1
+      day: 21
+      month: 2
+      year: 1999
+    region: STR_EUROPE
+    country: STR_UNKNOWN
+    type: STR_PORT_ATTACK
+    ufo: NO_UFO
+    success: false
+    score: -720
+    rating: STR_RATING_TERRIBLE
+    alienRace: STR_FLOATER_1
+    daylight: 15
+    injuryList:
+      2: 0
+      12: 0
+      16: 0
+      19: 0
+      21: 0
+      22: 0
+      23: 0
+      24: 0
+      25: 0
+    lootValue: 1
+  - id: 6
+    markerName: STR_LANDING_SITE_
+    markerId: 11
+    time:
+      second: 0
+      minute: 9
+      hour: 15
+      weekday: 1
+      day: 28
+      month: 2
+      year: 1999
+    region: STR_EUROPE
+    country: STR_SPAIN
+    type: STR_UFO_GROUND_ASSAULT
+    ufo: STR_SENTRY_SHIP
+    success: true
+    score: 184
+    rating: STR_RATING_OK
+    alienRace: STR_SECTOID
+    daylight: 0
+    injuryList:
+      19: 0
+      22: 0
+      25: 0
+      26: 0
+      27: 0
+      28: 0
+      29: 0
+      30: 0
+      31: 0
+      32: 0
+    lootValue: 1
+  - id: 7
+    markerName: STR_LANDING_SITE_
+    markerId: 12
+    time:
+      second: 30
+      minute: 8
+      hour: 16
+      weekday: 3
+      day: 2
+      month: 3
+      year: 1999
+    region: STR_EUROPE
+    country: STR_UNKNOWN
+    type: STR_UFO_GROUND_ASSAULT
+    ufo: STR_HARVESTER
+    success: false
+    score: 0
+    rating: STR_RATING_POOR
+    alienRace: STR_SECTOID
+    daylight: 1
+    injuryList:
+      19: 0
+      22: 0
+      25: 0
+      26: 0
+      27: 0
+      28: 0
+      30: 0
+      32: 0
+    lootValue: 1
+  - id: 8
+    markerName: STR_LANDING_SITE_
+    markerId: 14
+    time:
+      second: 50
+      minute: 49
+      hour: 1
+      weekday: 4
+      day: 3
+      month: 3
+      year: 1999
+    region: STR_EUROPE
+    country: STR_UNKNOWN
+    type: STR_UFO_GROUND_ASSAULT
+    ufo: STR_HARVESTER
+    success: false
+    score: 0
+    rating: STR_RATING_POOR
+    alienRace: STR_SECTOID
+    daylight: 15
+    injuryList:
+      19: 0
+      22: 0
+      25: 0
+      26: 0
+      27: 0
+      28: 0
+      30: 0
+      32: 0
+    lootValue: 1
+  - id: 9
+    markerName: STR_LANDING_SITE_
+    markerId: 15
+    time:
+      second: 25
+      minute: 39
+      hour: 10
+      weekday: 4
+      day: 3
+      month: 3
+      year: 1999
+    region: STR_EUROPE
+    country: STR_UNKNOWN
+    type: STR_UFO_GROUND_ASSAULT
+    ufo: STR_HARVESTER
+    success: true
+    score: 333
+    rating: STR_RATING_GOOD
+    alienRace: STR_SECTOID
+    daylight: 0
+    injuryList:
+      5: 15
+      8: 0
+      19: 0
+      20: 0
+      21: 0
+      22: 0
+      23: 0
+      24: 0
+      25: 0
+      26: 0
+      27: 0
+      28: 0
+      30: 0
+      32: 0
+    lootValue: 1
+  - id: 10
+    markerName: STR_LANDING_SITE_
+    markerId: 18
+    time:
+      second: 35
+      minute: 44
+      hour: 15
+      weekday: 3
+      day: 9
+      month: 3
+      year: 1999
+    region: STR_EUROPE
+    country: STR_UNKNOWN
+    type: STR_UFO_GROUND_ASSAULT
+    ufo: STR_SUPPLY_SHIP
+    success: true
+    score: 398
+    rating: STR_RATING_GOOD
+    alienRace: STR_FLOATER
+    daylight: 1
+    injuryList:
+      32: 4
+      33: 0
+      34: 10
+      35: 0
+      36: 0
+      37: 0
+      38: 0
+      39: 0
+      40: 0
+      41: 0
+      42: 0
+    lootValue: 1
+  - id: 11
+    markerName: STR_TERROR_SITE
+    markerId: 3
+    time:
+      second: 40
+      minute: 51
+      hour: 15
+      weekday: 1
+      day: 21
+      month: 3
+      year: 1999
+    region: STR_NORTH_AFRICA
+    country: STR_UNKNOWN
+    type: STR_TERROR_MISSION_TROPICAL
+    ufo: NO_UFO
+    success: false
+    score: -792
+    rating: STR_RATING_TERRIBLE
+    alienRace: STR_SECTOID
+    daylight: 0
+    injuryList:
+      18: 0
+      39: 0
+      43: 0
+      44: 0
+      45: 0
+      46: 0
+      47: 0
+      48: 0
+      49: 0
+      50: 0
+      51: 0
+      52: 0
+      53: 0
+      54: 0
+    lootValue: 1
+  - id: 12
+    markerName: STR_CRASH_SITE_
+    markerId: 2
+    time:
+      second: 15
+      minute: 40
+      hour: 13
+      weekday: 2
+      day: 22
+      month: 3
+      year: 1999
+    region: STR_NORTH_AMERICA
+    country: STR_UNKNOWN
+    type: STR_UFO_CRASH_RECOVERY
+    ufo: STR_EXCAVATOR
+    success: true
+    score: 3
+    rating: STR_RATING_OK
+    alienRace: STR_SECTOID
+    daylight: 0
+    injuryList:
+      18: 0
+      39: 0
+      43: 0
+      44: 0
+      45: 0
+      46: 0
+      47: 0
+      48: 0
+      49: 0
+      50: 0
+      51: 0
+      52: 0
+      53: 0
+      54: 0
+    lootValue: 1
