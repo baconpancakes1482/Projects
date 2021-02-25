@@ -20,5 +20,19 @@ int main(){
 	cout << s << endl;
 	string greeting = "Hello";
 	cout << greeting << endl;
+	string firstName = "John";
+	string lastName = "Doe";
+	string fullName = firstName + " " + lastName;
+	cout << fullName << endl;
+	string anotherFirstName = "John";
+	string anotherLastName = "Doe";
+	string anotherFullName = anotherFirstName.append( " " + anotherLastName);
+	cout << anotherFullName << endl;
+
+	string x = "10";
+	string y = "20";
+	string z = x + y;
+	cout << z << endl; //expect 1020
+
 return 0;
 }
