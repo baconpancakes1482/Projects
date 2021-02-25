@@ -34,5 +34,49 @@ int main(){
 	string z = x + y;
 	cout << z << endl; //expect 1020
 
+	string txt = "AbCdEf";
+	cout << "The length of the txt string is: " << txt.length() << endl;  // length() same as size()
+
+	string myString = "Hello";
+	cout << myString[0] << endl;
+	// outputs H
+	myString[0] = 'J';
+	cout << myString << endl;
+	// Hello to Jello
+	
+	// using getline() to take in more than one word for string
+	cout << "Type your full name: " << endl;
+	getline(cin, fullName);
+	cout << "Your name is: " << fullName << endl;
+	int num1 = 1;
+	int num2 = 3;
+	cout << ( num1 > num2 ) << endl;
+	cout << ( num2 > num1 ) << endl;
+	cout << ( num1 == num2 ) << endl;
+
+	// conditional statement
+	int time = 20;
+	string res = (time < 18) ? "Good night." : "Good evening.";
+	cout << res << endl;
+
+	string cars[4] = { "Hyundai", "BMW", "Toyota", "Mazda"};
+	cout << cars[0] << endl;
+	 i = 0;
+	 int size = sizeof(cars)/sizeof(cars[0]);
+
+	 for ( i; i < size; i++){
+	 	
+		 cout << "Car model is: " << cars[i] << endl;
+	
+	 }
+
+	string food = "Pizza";
+	string &meal = food;
+
+	cout << "My favorite food is: " << food << endl;
+	cout << "My memory address is: " << &food << endl;
+	cout << "My favorite food is: " << meal << endl;
+	cout << "My memory address is: " << &meal << endl;
+
 return 0;
 }

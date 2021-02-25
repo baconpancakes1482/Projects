@@ -2,6 +2,12 @@
 
 using namespace std;
 
+// function declaration
+void say_bye();
+void swap(int &x, int &y);
+int addTwo(int x, int y);
+double addTwo(double x, double y);
+
 int return_four(){
 	return 4;
 }
@@ -34,6 +40,34 @@ int main (){
 	cout << "The sum is: " << add(a,b) << endl;
 	says_who('A');
 	says_who('B', 20);
-
+	cout << "Swapping Numbers!" << endl;
+	swap(a,b);
+	cout << "a: " << a << "\n" << "b: " << b << endl;
+	say_bye();
+	a = 4;
+	b = 6;
+	double c = 1.055;
+	double d = 5.399;
+	int ci = addTwo(4,6);
+	double e = addTwo(c,d);
+	cout << "add int 4 and int 6: " << ci << endl;
+	cout << "add double 1.055 and double 5.399: " << e << endl;
 return 0;
+}
+
+void say_bye(){
+
+	cout << "GOODBYE" << endl;
+}
+ void swap(int &x, int &y){
+ 	int z = x; 
+	x = y;
+	y = z;
+ 
+ }
+int addTwo(int x, int y){
+	return x + y;
+}
+double addTwo(double x, double y){
+	return x + y;
 }
