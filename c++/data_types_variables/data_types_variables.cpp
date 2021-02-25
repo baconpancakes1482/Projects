@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -17,5 +18,7 @@ int main(){
 	cout << d << endl;
 	cout << e << endl;
 	cout << s << endl;
+	string greeting = "Hello";
+	cout << greeting << endl;
 return 0;
 }
