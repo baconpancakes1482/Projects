@@ -1,7 +1,11 @@
 #include <iostream>
-#include <string>
+//#include <string>
 
-using namespace std;
+//using namespace std;
+using std::string;
+using std::cout;
+using std::endl;
+using std::cin;
 
 int main(){
 	int i = 1;
